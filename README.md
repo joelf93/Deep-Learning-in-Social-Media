@@ -1,1 +1,4 @@
-# Deep-Learning-in-Social-Media
+# Deep Learning in Social Media: User Profiling In Recommender System
+
+The recent proliferation of the social media as well the growth of their volume content has increased the need for more and more accurate recommendations. They are based on the analysis of the characteristics of users’ interest, which often corresponds to a user profiling. User profiling consists of extracting user labels on different attributes such as age, gender, occupation, income, and interest, which greatly facilitate accurate personalized recommendations. This paper will show the studies 
+about user profiling in recommendation systems and will propose an approach based on the Siamese neural network, which considers users’ preferences and item attributes for movie recommendations. Furthermore, the results of this network and others recommendation methods will be discussed.
