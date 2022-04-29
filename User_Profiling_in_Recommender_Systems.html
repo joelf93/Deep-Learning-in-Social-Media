@@ -1,0 +1,3005 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>bca4f15be5274976a75a4f92964889fe</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="cHAApGx0eYS7">
+<p>###MovieLens 1M data pre-processing</p>
+</div>
+<div class="cell code" data-execution_count="16" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="2B02h9oOkPOx" data-outputId="1ca5497f-2ed5-45e6-9b2d-8dd9b0ba148b">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">### Downloading the Dataset </span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">##### For running on Google Colab</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># !wget -nc https://files.grouplens.org/datasets/movielens/ml-1m.zip --no-check-certificate</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># !unzip -n ml-1m</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">##### For using a local machine, please use this code instead:</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> zipfile</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> requests.get(<span class="st">&quot;https://files.grouplens.org/datasets/movielens/ml-1m.zip&quot;</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;ml-1m.zip&quot;</span>, <span class="st">&quot;wb&quot;</span>) <span class="im">as</span> code:</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    code.write(r.content)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> zipfile.ZipFile(<span class="st">&quot;ml-1m.zip&quot;</span>, <span class="st">&#39;r&#39;</span>) <span class="im">as</span> zip_ref:</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    zip_ref.extractall(path<span class="op">=</span><span class="va">None</span>, members<span class="op">=</span><span class="va">None</span>, pwd<span class="op">=</span><span class="va">None</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="jWNkGWi42gSL">
+<p>####Loading the ratings data</p>
+</div>
+<div class="cell code" data-execution_count="17" data-colab="{&quot;height&quot;:306,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="qlcI1PThFi16" data-outputId="9db102fb-504d-4e9e-cba2-3b0ec600ebce">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np, pandas <span class="im">as</span> pd, re</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>dataset <span class="op">=</span> <span class="st">&quot;ml-1m&quot;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>ratings <span class="op">=</span> pd.read_table(dataset<span class="op">+</span><span class="st">&#39;/ratings.dat&#39;</span>, sep<span class="op">=</span><span class="st">&#39;::&#39;</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>                        engine<span class="op">=</span><span class="st">&#39;python&#39;</span>, names<span class="op">=</span>[<span class="st">&quot;user_id&quot;</span>, <span class="st">&quot;movie_id&quot;</span>, <span class="st">&quot;rating&quot;</span>, <span class="st">&quot;rating_timestamp&quot;</span>])</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>ratings.drop_duplicates()</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(ratings.shape)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(ratings.dtypes)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>ratings.head()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(1000209, 4)
+user_id             int64
+movie_id            int64
+rating              int64
+rating_timestamp    int64
+dtype: object
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="17">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>movie_id</th>
+      <th>rating</th>
+      <th>rating_timestamp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>1193</td>
+      <td>5</td>
+      <td>978300760</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>661</td>
+      <td>3</td>
+      <td>978302109</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1</td>
+      <td>914</td>
+      <td>3</td>
+      <td>978301968</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>3408</td>
+      <td>4</td>
+      <td>978300275</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1</td>
+      <td>2355</td>
+      <td>5</td>
+      <td>978824291</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="18" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="asWKE3h67zmT" data-outputId="b5a6edc1-8e30-4548-f64f-0c6d67633640">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of users: </span><span class="sc">%d</span><span class="st">&quot;</span> <span class="op">%</span> ratings.user_id.drop_duplicates().count())</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of items: </span><span class="sc">%d</span><span class="st">&quot;</span> <span class="op">%</span> ratings.movie_id.drop_duplicates().count())</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of ratings: </span><span class="sc">%d</span><span class="st">&quot;</span> <span class="op">%</span> ratings.rating.count())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Number of users: 6040
+Number of items: 3706
+Number of ratings: 1000209
+</code></pre>
+</div>
+</div>
+<section id="loading-movie-data" class="cell markdown" id="poIrUsRU7Xms">
+<h4>Loading movie data</h4>
+</section>
+<div class="cell code" data-execution_count="19" data-colab="{&quot;height&quot;:306,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="X4KNnh5W8PhU" data-outputId="063b9d39-14b9-41e2-f178-cfde0da618e4">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>movies <span class="op">=</span> pd.read_table(dataset<span class="op">+</span><span class="st">&#39;/movies.dat&#39;</span>,</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>                             sep<span class="op">=</span><span class="st">&#39;::&#39;</span>, names<span class="op">=</span>[<span class="st">&#39;movie_id&#39;</span>, <span class="st">&#39;title&#39;</span>, <span class="st">&#39;genres&#39;</span>], engine<span class="op">=</span><span class="st">&#39;python&#39;</span>, header<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>movies[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> movies.title.<span class="bu">str</span>.extract(<span class="st">&quot;\((\d</span><span class="sc">{4}</span><span class="st">)\)&quot;</span>, expand<span class="op">=</span><span class="va">True</span>).astype(<span class="bu">int</span>) <span class="co"># extract year from title</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(movies.shape)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(movies.dtypes)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>movies.head()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(3882, 4)
+movie_id     int64
+title       object
+genres      object
+year         int32
+dtype: object
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="19">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>movie_id</th>
+      <th>title</th>
+      <th>genres</th>
+      <th>year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2</td>
+      <td>Jumanji (1995)</td>
+      <td>Adventure|Children's|Fantasy</td>
+      <td>1995</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3</td>
+      <td>Grumpier Old Men (1995)</td>
+      <td>Comedy|Romance</td>
+      <td>1995</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>4</td>
+      <td>Waiting to Exhale (1995)</td>
+      <td>Comedy|Drama</td>
+      <td>1995</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5</td>
+      <td>Father of the Bride Part II (1995)</td>
+      <td>Comedy</td>
+      <td>1995</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>6</td>
+      <td>Heat (1995)</td>
+      <td>Action|Crime|Thriller</td>
+      <td>1995</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="20" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="s2suVjKcE2Ju" data-outputId="2424fed3-ffea-4c5f-a497-c454a71b2116">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>movies[<span class="st">&#39;genres&#39;</span>]<span class="op">=</span>movies.genres.<span class="bu">map</span>(<span class="kw">lambda</span> x: <span class="bu">set</span>(x.split(<span class="st">&#39;|&#39;</span>)))</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>present_genres<span class="op">=</span><span class="bu">set</span>()</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> movie <span class="kw">in</span> movies.itertuples():</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    present_genres<span class="op">=</span>present_genres.union(movie.genres) <span class="co"># create a set of all present genres</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> genre <span class="kw">in</span> present_genres:</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    movies[<span class="st">&#39;genre&#39;</span><span class="op">+</span>genre]<span class="op">=</span>movies.genres.<span class="bu">map</span>(<span class="kw">lambda</span> x: <span class="fl">1.0</span><span class="op">*</span>(genre <span class="kw">in</span> x)) <span class="co"># add dummy encoded columns to movie df</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>present_genres</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>{&#39;Action&#39;,
+ &#39;Adventure&#39;,
+ &#39;Animation&#39;,
+ &quot;Children&#39;s&quot;,
+ &#39;Comedy&#39;,
+ &#39;Crime&#39;,
+ &#39;Documentary&#39;,
+ &#39;Drama&#39;,
+ &#39;Fantasy&#39;,
+ &#39;Film-Noir&#39;,
+ &#39;Horror&#39;,
+ &#39;Musical&#39;,
+ &#39;Mystery&#39;,
+ &#39;Romance&#39;,
+ &#39;Sci-Fi&#39;,
+ &#39;Thriller&#39;,
+ &#39;War&#39;,
+ &#39;Western&#39;}</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="ow4N0TpGx5gl">
+<p>####User data</p>
+</div>
+<section id="loading-the-user-demographic-information" class="cell markdown" id="YtC2D3hI16IG">
+<h4>Loading the user demographic information</h4>
+</section>
+<div class="cell code" data-execution_count="21" data-colab="{&quot;height&quot;:204,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="47Eb6d4C17Fd" data-outputId="4ccc44b7-a593-4ebc-b0dc-c2be57c83293">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>users <span class="op">=</span> pd.read_table(dataset<span class="op">+</span><span class="st">&#39;/users.dat&#39;</span>,</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>                      sep<span class="op">=</span><span class="st">&#39;::&#39;</span>, names<span class="op">=</span>[<span class="st">&quot;user_id&quot;</span>, <span class="st">&quot;gender&quot;</span>, <span class="st">&quot;age&quot;</span>, <span class="st">&quot;occupation&quot;</span>, <span class="st">&quot;Zipcode&quot;</span>], engine<span class="op">=</span><span class="st">&#39;python&#39;</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>users <span class="op">=</span> users.drop(<span class="st">&quot;Zipcode&quot;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>occupations <span class="op">=</span> {</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span>:  <span class="st">&quot;</span><span class="ch">\&quot;</span><span class="st">other</span><span class="ch">\&quot;</span><span class="st"> or not specified&quot;</span>,</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>:  <span class="st">&quot;academic/educator&quot;</span>,</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>:  <span class="st">&quot;artist&quot;</span>,</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>:  <span class="st">&quot;clerical/admin&quot;</span>,</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>:  <span class="st">&quot;college/grad student&quot;</span>,</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>:  <span class="st">&quot;customer service&quot;</span>,</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>    <span class="dv">6</span>:  <span class="st">&quot;doctor/health care&quot;</span>,</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    <span class="dv">7</span>:  <span class="st">&quot;executive/managerial&quot;</span>,</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>    <span class="dv">8</span>:  <span class="st">&quot;farmer&quot;</span>,</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>    <span class="dv">9</span>:  <span class="st">&quot;homemaker&quot;</span>,</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>    <span class="dv">10</span>:  <span class="st">&quot;K-12 student&quot;</span>,</span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>    <span class="dv">11</span>:  <span class="st">&quot;lawyer&quot;</span>,</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>    <span class="dv">12</span>:  <span class="st">&quot;programmer&quot;</span>,</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>    <span class="dv">13</span>:  <span class="st">&quot;retired&quot;</span>,</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>    <span class="dv">14</span>:  <span class="st">&quot;sales/marketing&quot;</span>,</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>    <span class="dv">15</span>:  <span class="st">&quot;scientist&quot;</span>,</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>    <span class="dv">16</span>:  <span class="st">&quot;self-employed&quot;</span>,</span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>    <span class="dv">17</span>:  <span class="st">&quot;technician/engineer&quot;</span>,</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>    <span class="dv">18</span>:  <span class="st">&quot;tradesman/craftsman&quot;</span>,</span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>    <span class="dv">19</span>:  <span class="st">&quot;unemployed&quot;</span>,</span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>    <span class="dv">20</span>:  <span class="st">&quot;writer&quot;</span></span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>users[<span class="st">&#39;occupation_name&#39;</span>] <span class="op">=</span> users.occupation.<span class="bu">map</span>(occupations)</span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a><span class="co">#users[&#39;age&#39;] = users.age.map(lambda x: str(x))</span></span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>users.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>gender</th>
+      <th>age</th>
+      <th>occupation</th>
+      <th>occupation_name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>F</td>
+      <td>1</td>
+      <td>10</td>
+      <td>K-12 student</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>M</td>
+      <td>56</td>
+      <td>16</td>
+      <td>self-employed</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>M</td>
+      <td>25</td>
+      <td>15</td>
+      <td>scientist</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>M</td>
+      <td>45</td>
+      <td>7</td>
+      <td>executive/managerial</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>M</td>
+      <td>25</td>
+      <td>20</td>
+      <td>writer</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown" id="Q7VKQL-MhcyI">
+<p>####Merging dataframes into one</p>
+</div>
+<div class="cell markdown" id="F_u9Wy7Elxb4">
+<p>Users data preparation</p>
+</div>
+<div class="cell code" data-execution_count="22" data-colab="{&quot;height&quot;:221,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="xHb1ocaXlw11" data-outputId="0cdd9289-d197-4e8e-8ec0-570af013891d">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># map gender to numeric values and create mapping dictionaries</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>num2gender <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">enumerate</span>(users.gender.unique()))</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>gender2num <span class="op">=</span> {y:x <span class="cf">for</span> x,y <span class="kw">in</span> num2gender.items()}</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>users.gender <span class="op">=</span> users.gender.<span class="bu">apply</span>(<span class="kw">lambda</span> x: gender2num[x])</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(users.shape)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>users.head()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(6040, 5)
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="22">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>gender</th>
+      <th>age</th>
+      <th>occupation</th>
+      <th>occupation_name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>10</td>
+      <td>K-12 student</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>1</td>
+      <td>56</td>
+      <td>16</td>
+      <td>self-employed</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>1</td>
+      <td>25</td>
+      <td>15</td>
+      <td>scientist</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>1</td>
+      <td>45</td>
+      <td>7</td>
+      <td>executive/managerial</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>1</td>
+      <td>25</td>
+      <td>20</td>
+      <td>writer</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="23" data-colab="{&quot;height&quot;:411,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="4Qf8emSfhpPY" data-outputId="8a6ad565-547d-4320-dcf9-5831e059fe57">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create user-interaction matrix with movie infos</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>mov <span class="op">=</span> pd.merge(movies, ratings, on<span class="op">=</span><span class="st">&quot;movie_id&quot;</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>mov <span class="op">=</span> pd.merge(mov, users, on<span class="op">=</span><span class="st">&quot;user_id&quot;</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(mov.shape)</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>mov.head()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(998132, 29)
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="23">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>movie_id</th>
+      <th>title</th>
+      <th>genres</th>
+      <th>year</th>
+      <th>genreDocumentary</th>
+      <th>genreFantasy</th>
+      <th>genreAction</th>
+      <th>genreComedy</th>
+      <th>genreChildren's</th>
+      <th>genreMystery</th>
+      <th>...</th>
+      <th>genreWestern</th>
+      <th>genreWar</th>
+      <th>genreSci-Fi</th>
+      <th>user_id</th>
+      <th>rating</th>
+      <th>rating_timestamp</th>
+      <th>gender</th>
+      <th>age</th>
+      <th>occupation</th>
+      <th>occupation_name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2</td>
+      <td>Jumanji (1995)</td>
+      <td>{Adventure, Fantasy, Children's}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>5</td>
+      <td>979168267</td>
+      <td>0</td>
+      <td>35</td>
+      <td>1</td>
+      <td>academic/educator</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>7</td>
+      <td>Sabrina (1995)</td>
+      <td>{Romance, Comedy}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>4</td>
+      <td>978227763</td>
+      <td>0</td>
+      <td>35</td>
+      <td>1</td>
+      <td>academic/educator</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>24</td>
+      <td>Powder (1995)</td>
+      <td>{Sci-Fi, Drama}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>10</td>
+      <td>3</td>
+      <td>978230586</td>
+      <td>0</td>
+      <td>35</td>
+      <td>1</td>
+      <td>academic/educator</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>32</td>
+      <td>Twelve Monkeys (1995)</td>
+      <td>{Sci-Fi, Drama}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>10</td>
+      <td>5</td>
+      <td>979168160</td>
+      <td>0</td>
+      <td>35</td>
+      <td>1</td>
+      <td>academic/educator</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>48</td>
+      <td>Pocahontas (1995)</td>
+      <td>{Musical, Romance, Animation, Children's}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>4</td>
+      <td>978230090</td>
+      <td>0</td>
+      <td>35</td>
+      <td>1</td>
+      <td>academic/educator</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 29 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="24" id="yrWQqnlFjgza">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create consecutive ids for movies and users</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>id2movie <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">enumerate</span>(mov.movie_id.unique()))</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>movie2id <span class="op">=</span> {y:x <span class="cf">for</span> x,y <span class="kw">in</span> id2movie.items()}</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>id2user <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">enumerate</span>(mov.user_id.unique()))</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>user2id <span class="op">=</span> {y:x <span class="cf">for</span> x,y <span class="kw">in</span> id2user.items()}</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="co"># add new id columns to df </span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>mov[<span class="st">&quot;iid&quot;</span>] <span class="op">=</span> mov.<span class="bu">apply</span>(<span class="kw">lambda</span> x: movie2id[x.movie_id], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>mov[<span class="st">&quot;uid&quot;</span>] <span class="op">=</span> mov.<span class="bu">apply</span>(<span class="kw">lambda</span> x: user2id[x.user_id], axis<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="25" data-colab="{&quot;height&quot;:1000,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="GfLZN8F9o3-Y" data-outputId="1bcac7ad-f4d4-474f-cfce-4894ee8f7a10">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(mov.shape)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>mov.sample(frac<span class="op">=</span><span class="dv">1</span>).head(<span class="dv">30</span>) <span class="co"># shuffle and show 30 entries</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(998132, 31)
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="25">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>movie_id</th>
+      <th>title</th>
+      <th>genres</th>
+      <th>year</th>
+      <th>genreDocumentary</th>
+      <th>genreFantasy</th>
+      <th>genreAction</th>
+      <th>genreComedy</th>
+      <th>genreChildren's</th>
+      <th>genreMystery</th>
+      <th>...</th>
+      <th>genreSci-Fi</th>
+      <th>user_id</th>
+      <th>rating</th>
+      <th>rating_timestamp</th>
+      <th>gender</th>
+      <th>age</th>
+      <th>occupation</th>
+      <th>occupation_name</th>
+      <th>iid</th>
+      <th>uid</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>21474</th>
+      <td>2422</td>
+      <td>Karate Kid III, The (1989)</td>
+      <td>{Adventure, Action, Drama}</td>
+      <td>1989</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>509</td>
+      <td>2</td>
+      <td>976297676</td>
+      <td>1</td>
+      <td>25</td>
+      <td>2</td>
+      <td>artist</td>
+      <td>574</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <th>811802</th>
+      <td>3177</td>
+      <td>Next Friday (1999)</td>
+      <td>{Comedy}</td>
+      <td>1999</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>1047</td>
+      <td>3</td>
+      <td>974965076</td>
+      <td>1</td>
+      <td>18</td>
+      <td>0</td>
+      <td>"other" or not specified</td>
+      <td>2083</td>
+      <td>3300</td>
+    </tr>
+    <tr>
+      <th>269286</th>
+      <td>2081</td>
+      <td>Little Mermaid, The (1989)</td>
+      <td>{Comedy, Children's, Romance, Musical, Animation}</td>
+      <td>1989</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>5620</td>
+      <td>3</td>
+      <td>969984758</td>
+      <td>1</td>
+      <td>35</td>
+      <td>14</td>
+      <td>sales/marketing</td>
+      <td>245</td>
+      <td>656</td>
+    </tr>
+    <tr>
+      <th>459184</th>
+      <td>950</td>
+      <td>Thin Man, The (1934)</td>
+      <td>{Mystery}</td>
+      <td>1934</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>1325</td>
+      <td>4</td>
+      <td>974778723</td>
+      <td>1</td>
+      <td>25</td>
+      <td>1</td>
+      <td>academic/educator</td>
+      <td>1153</td>
+      <td>1316</td>
+    </tr>
+    <tr>
+      <th>52094</th>
+      <td>621</td>
+      <td>My Favorite Season (1993)</td>
+      <td>{Drama}</td>
+      <td>1993</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>1181</td>
+      <td>3</td>
+      <td>976141753</td>
+      <td>1</td>
+      <td>35</td>
+      <td>7</td>
+      <td>executive/managerial</td>
+      <td>3078</td>
+      <td>134</td>
+    </tr>
+    <tr>
+      <th>301422</th>
+      <td>1081</td>
+      <td>Victor/Victoria (1982)</td>
+      <td>{Comedy, Musical}</td>
+      <td>1982</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>752</td>
+      <td>3</td>
+      <td>996518805</td>
+      <td>0</td>
+      <td>25</td>
+      <td>3</td>
+      <td>clerical/admin</td>
+      <td>1402</td>
+      <td>748</td>
+    </tr>
+    <tr>
+      <th>306312</th>
+      <td>2436</td>
+      <td>Tea with Mussolini (1999)</td>
+      <td>{Comedy}</td>
+      <td>1999</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>927</td>
+      <td>1</td>
+      <td>975194693</td>
+      <td>0</td>
+      <td>25</td>
+      <td>20</td>
+      <td>writer</td>
+      <td>293</td>
+      <td>763</td>
+    </tr>
+    <tr>
+      <th>562232</th>
+      <td>3039</td>
+      <td>Trading Places (1983)</td>
+      <td>{Comedy}</td>
+      <td>1983</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>5345</td>
+      <td>4</td>
+      <td>960672620</td>
+      <td>0</td>
+      <td>25</td>
+      <td>17</td>
+      <td>technician/engineer</td>
+      <td>335</td>
+      <td>1735</td>
+    </tr>
+    <tr>
+      <th>455857</th>
+      <td>590</td>
+      <td>Dances with Wolves (1990)</td>
+      <td>{Adventure, Western, Drama}</td>
+      <td>1990</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>1267</td>
+      <td>4</td>
+      <td>974827423</td>
+      <td>1</td>
+      <td>25</td>
+      <td>15</td>
+      <td>scientist</td>
+      <td>50</td>
+      <td>1308</td>
+    </tr>
+    <tr>
+      <th>614497</th>
+      <td>3408</td>
+      <td>Erin Brockovich (2000)</td>
+      <td>{Drama}</td>
+      <td>2000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>143</td>
+      <td>3</td>
+      <td>977350612</td>
+      <td>1</td>
+      <td>18</td>
+      <td>3</td>
+      <td>clerical/admin</td>
+      <td>367</td>
+      <td>1984</td>
+    </tr>
+    <tr>
+      <th>505299</th>
+      <td>1485</td>
+      <td>Liar Liar (1997)</td>
+      <td>{Comedy}</td>
+      <td>1997</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>3129</td>
+      <td>3</td>
+      <td>969281403</td>
+      <td>1</td>
+      <td>25</td>
+      <td>7</td>
+      <td>executive/managerial</td>
+      <td>961</td>
+      <td>1502</td>
+    </tr>
+    <tr>
+      <th>388895</th>
+      <td>923</td>
+      <td>Citizen Kane (1941)</td>
+      <td>{Drama}</td>
+      <td>1941</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>2016</td>
+      <td>4</td>
+      <td>974678155</td>
+      <td>0</td>
+      <td>56</td>
+      <td>2</td>
+      <td>artist</td>
+      <td>81</td>
+      <td>1047</td>
+    </tr>
+    <tr>
+      <th>230323</th>
+      <td>3479</td>
+      <td>Ladyhawke (1985)</td>
+      <td>{Romance, Adventure, Fantasy}</td>
+      <td>1985</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>4610</td>
+      <td>4</td>
+      <td>984860392</td>
+      <td>0</td>
+      <td>25</td>
+      <td>4</td>
+      <td>college/grad student</td>
+      <td>447</td>
+      <td>544</td>
+    </tr>
+    <tr>
+      <th>51034</th>
+      <td>1198</td>
+      <td>Raiders of the Lost Ark (1981)</td>
+      <td>{Adventure, Action}</td>
+      <td>1981</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>1141</td>
+      <td>5</td>
+      <td>974873642</td>
+      <td>0</td>
+      <td>25</td>
+      <td>3</td>
+      <td>clerical/admin</td>
+      <td>126</td>
+      <td>130</td>
+    </tr>
+    <tr>
+      <th>665250</th>
+      <td>2797</td>
+      <td>Big (1988)</td>
+      <td>{Fantasy, Comedy}</td>
+      <td>1988</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>1853</td>
+      <td>5</td>
+      <td>975019429</td>
+      <td>1</td>
+      <td>50</td>
+      <td>0</td>
+      <td>"other" or not specified</td>
+      <td>318</td>
+      <td>2284</td>
+    </tr>
+    <tr>
+      <th>162116</th>
+      <td>3471</td>
+      <td>Close Encounters of the Third Kind (1977)</td>
+      <td>{Sci-Fi, Drama}</td>
+      <td>1977</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>1.0</td>
+      <td>3511</td>
+      <td>4</td>
+      <td>966974434</td>
+      <td>1</td>
+      <td>50</td>
+      <td>0</td>
+      <td>"other" or not specified</td>
+      <td>373</td>
+      <td>389</td>
+    </tr>
+    <tr>
+      <th>777702</th>
+      <td>3198</td>
+      <td>Papillon (1973)</td>
+      <td>{Drama}</td>
+      <td>1973</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>230</td>
+      <td>5</td>
+      <td>976824519</td>
+      <td>1</td>
+      <td>45</td>
+      <td>1</td>
+      <td>academic/educator</td>
+      <td>352</td>
+      <td>3048</td>
+    </tr>
+    <tr>
+      <th>974874</th>
+      <td>2763</td>
+      <td>Thomas Crown Affair, The (1999)</td>
+      <td>{Action, Thriller}</td>
+      <td>1999</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>2949</td>
+      <td>3</td>
+      <td>971231430</td>
+      <td>1</td>
+      <td>25</td>
+      <td>17</td>
+      <td>technician/engineer</td>
+      <td>583</td>
+      <td>5440</td>
+    </tr>
+    <tr>
+      <th>732554</th>
+      <td>2788</td>
+      <td>And Now for Something Completely Different (1971)</td>
+      <td>{Comedy}</td>
+      <td>1971</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>4451</td>
+      <td>4</td>
+      <td>965086910</td>
+      <td>1</td>
+      <td>25</td>
+      <td>14</td>
+      <td>sales/marketing</td>
+      <td>1781</td>
+      <td>2692</td>
+    </tr>
+    <tr>
+      <th>574493</th>
+      <td>1554</td>
+      <td>Pillow Book, The (1995)</td>
+      <td>{Romance, Drama}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>5826</td>
+      <td>4</td>
+      <td>957914930</td>
+      <td>1</td>
+      <td>18</td>
+      <td>4</td>
+      <td>college/grad student</td>
+      <td>1205</td>
+      <td>1787</td>
+    </tr>
+    <tr>
+      <th>386877</th>
+      <td>2723</td>
+      <td>Mystery Men (1999)</td>
+      <td>{Adventure, Action, Comedy}</td>
+      <td>1999</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>1194</td>
+      <td>1</td>
+      <td>974851034</td>
+      <td>0</td>
+      <td>25</td>
+      <td>1</td>
+      <td>academic/educator</td>
+      <td>580</td>
+      <td>1041</td>
+    </tr>
+    <tr>
+      <th>229864</th>
+      <td>1097</td>
+      <td>E.T. the Extra-Terrestrial (1982)</td>
+      <td>{Fantasy, Sci-Fi, Drama, Children's}</td>
+      <td>1982</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>1.0</td>
+      <td>4600</td>
+      <td>4</td>
+      <td>967476655</td>
+      <td>1</td>
+      <td>25</td>
+      <td>0</td>
+      <td>"other" or not specified</td>
+      <td>114</td>
+      <td>542</td>
+    </tr>
+    <tr>
+      <th>89742</th>
+      <td>1831</td>
+      <td>Lost in Space (1998)</td>
+      <td>{Thriller, Action, Sci-Fi}</td>
+      <td>1998</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>1.0</td>
+      <td>1837</td>
+      <td>2</td>
+      <td>976025776</td>
+      <td>1</td>
+      <td>25</td>
+      <td>2</td>
+      <td>artist</td>
+      <td>207</td>
+      <td>218</td>
+    </tr>
+    <tr>
+      <th>344391</th>
+      <td>1031</td>
+      <td>Bedknobs and Broomsticks (1971)</td>
+      <td>{Musical, Adventure, Children's}</td>
+      <td>1971</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>3096</td>
+      <td>4</td>
+      <td>969643382</td>
+      <td>0</td>
+      <td>45</td>
+      <td>3</td>
+      <td>clerical/admin</td>
+      <td>103</td>
+      <td>925</td>
+    </tr>
+    <tr>
+      <th>577849</th>
+      <td>2706</td>
+      <td>American Pie (1999)</td>
+      <td>{Comedy}</td>
+      <td>1999</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>268</td>
+      <td>4</td>
+      <td>976646876</td>
+      <td>0</td>
+      <td>18</td>
+      <td>12</td>
+      <td>programmer</td>
+      <td>1029</td>
+      <td>1806</td>
+    </tr>
+    <tr>
+      <th>860752</th>
+      <td>2117</td>
+      <td>Nineteen Eighty-Four (1984)</td>
+      <td>{Sci-Fi, Drama}</td>
+      <td>1984</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>1.0</td>
+      <td>359</td>
+      <td>4</td>
+      <td>976317246</td>
+      <td>1</td>
+      <td>25</td>
+      <td>17</td>
+      <td>technician/engineer</td>
+      <td>691</td>
+      <td>3742</td>
+    </tr>
+    <tr>
+      <th>51194</th>
+      <td>2291</td>
+      <td>Edward Scissorhands (1990)</td>
+      <td>{Romance, Drama}</td>
+      <td>1990</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>1141</td>
+      <td>5</td>
+      <td>974877186</td>
+      <td>0</td>
+      <td>25</td>
+      <td>3</td>
+      <td>clerical/admin</td>
+      <td>271</td>
+      <td>130</td>
+    </tr>
+    <tr>
+      <th>191248</th>
+      <td>2078</td>
+      <td>Jungle Book, The (1967)</td>
+      <td>{Musical, Animation, Comedy, Children's}</td>
+      <td>1967</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>4021</td>
+      <td>3</td>
+      <td>965523315</td>
+      <td>1</td>
+      <td>50</td>
+      <td>20</td>
+      <td>writer</td>
+      <td>243</td>
+      <td>464</td>
+    </tr>
+    <tr>
+      <th>732234</th>
+      <td>608</td>
+      <td>Fargo (1996)</td>
+      <td>{Crime, Thriller, Drama}</td>
+      <td>1996</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>4370</td>
+      <td>5</td>
+      <td>965180709</td>
+      <td>1</td>
+      <td>25</td>
+      <td>16</td>
+      <td>self-employed</td>
+      <td>638</td>
+      <td>2690</td>
+    </tr>
+    <tr>
+      <th>45199</th>
+      <td>552</td>
+      <td>Three Musketeers, The (1993)</td>
+      <td>{Adventure, Action, Comedy}</td>
+      <td>1993</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>1051</td>
+      <td>4</td>
+      <td>974960392</td>
+      <td>0</td>
+      <td>25</td>
+      <td>0</td>
+      <td>"other" or not specified</td>
+      <td>413</td>
+      <td>116</td>
+    </tr>
+  </tbody>
+</table>
+<p>30 rows × 31 columns</p>
+</div>
+</div>
+</div>
+<section id="data-exploration" class="cell markdown" id="6vz8zf2PZAq2">
+<h2>Data Exploration</h2>
+</section>
+<div class="cell markdown" id="LJ7sE7KaxQ1w">
+
+</div>
+<div class="cell code" data-execution_count="26" data-colab="{&quot;height&quot;:295,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="qF8tPOD_xRsC" data-outputId="8ec8b8a9-5040-4907-a57b-85472def2a61">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>df_explore <span class="op">=</span> mov</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="co"># mov.drop(&#39;genres&#39;,1,inplace=True)</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="co"># plot rating counts vs. movie counts</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="co">## data preparation</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>rating_counts <span class="op">=</span> mov[<span class="st">&#39;year&#39;</span>].value_counts().reset_index()</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>rating_counts.columns <span class="op">=</span> [<span class="st">&quot;year&quot;</span>, <span class="st">&quot;rating_count&quot;</span>]</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>movie_counts <span class="op">=</span> movies[<span class="st">&#39;year&#39;</span>].value_counts().reset_index()</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>movie_counts.columns <span class="op">=</span> [<span class="st">&quot;year&quot;</span>, <span class="st">&quot;movie_count&quot;</span>]</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>counts_by_year <span class="op">=</span> pd.merge(rating_counts, movie_counts, how<span class="op">=</span><span class="st">&quot;inner&quot;</span>, on<span class="op">=</span><span class="st">&quot;year&quot;</span>)</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a><span class="co">## plotting</span></span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure()</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>rating_line <span class="op">=</span> sns.lineplot(data<span class="op">=</span>counts_by_year, x<span class="op">=</span><span class="st">&#39;year&#39;</span>, y<span class="op">=</span><span class="st">&#39;rating_count&#39;</span>, color<span class="op">=</span><span class="st">&quot;r&quot;</span>, label <span class="op">=</span> <span class="st">&#39;ratings&#39;</span>, legend<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>ax2 <span class="op">=</span> plt.twinx()</span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>movie_line <span class="op">=</span> sns.lineplot(data<span class="op">=</span>counts_by_year, x<span class="op">=</span><span class="st">&#39;year&#39;</span>, y<span class="op">=</span><span class="st">&#39;movie_count&#39;</span>, color<span class="op">=</span><span class="st">&quot;b&quot;</span>, label <span class="op">=</span> <span class="st">&#39;movies&#39;</span>, legend<span class="op">=</span><span class="dv">0</span>, ax<span class="op">=</span>ax2)</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a>fig.legend(  loc<span class="op">=</span><span class="st">&quot;center left&quot;</span>,  bbox_to_anchor<span class="op">=</span>(<span class="fl">0.15</span>, <span class="fl">0.8</span>))</span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;User Ratings and their target movie year&quot;</span>)</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_c5770effcc694bc3abb92376ece48707/f373e36bbac8e8275d506165606d160f4d88a829.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="27" data-colab="{&quot;height&quot;:330,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Q3sLrAOYZLYY" data-outputId="236fe11c-9c49-48a1-c305-ce824ba1f2f3">
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># how many reviews per user?</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>movies_count <span class="op">=</span> <span class="bu">len</span>(movies)</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of movies present:&quot;</span>,movies_count)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>rating_count_by_user <span class="op">=</span> ratings.groupby([<span class="st">&#39;user_id&#39;</span>])[<span class="st">&quot;user_id&quot;</span>].count()</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>rating_count_by_user <span class="op">=</span> pd.DataFrame(rating_count_by_user)</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>rating_count_by_user.columns <span class="op">=</span> [<span class="st">&quot;rated_movie_count&quot;</span>]</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>rating_count_by_user.reset_index().plot(kind<span class="op">=</span><span class="st">&quot;scatter&quot;</span>, x<span class="op">=</span><span class="st">&quot;user_id&quot;</span>, y<span class="op">=</span><span class="st">&quot;rated_movie_count&quot;</span>, alpha<span class="op">=</span><span class="fl">0.3</span>, title<span class="op">=</span><span class="st">&quot;Number of rated movies by user&quot;</span>)</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>rating_ratio_by_user <span class="op">=</span> ratings.groupby([<span class="st">&#39;user_id&#39;</span>])[<span class="st">&quot;user_id&quot;</span>].count()<span class="op">/</span>movies_count</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Avg percentage of movies rated by user:&quot;</span>,rating_ratio_by_user.mean())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Number of movies present: 3882
+Avg percentage of movies rated by user: 0.042657783759993566
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_c5770effcc694bc3abb92376ece48707/67c722b7e6e3573ad87913d9b4a6437b924feb7b.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="28" data-colab="{&quot;height&quot;:946,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="O2WNbwwr8aW6" data-outputId="047482f5-1376-4543-e281-8f3143f8676c">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Distribution of Movie Ratings</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>display(ratings)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>ratings.groupby([<span class="st">&#39;rating&#39;</span>])[<span class="st">&quot;rating&quot;</span>].count().plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>,title<span class="op">=</span><span class="st">&quot;Distribution of Movie ratings&quot;</span>)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>median <span class="op">=</span> ratings.rating.median()</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>avg <span class="op">=</span> ratings.rating.mean()</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(median, avg)</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">2</span>, <span class="dv">4</span>))</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> sns.boxplot(data<span class="op">=</span>mov, y<span class="op">=</span><span class="st">&quot;rating&quot;</span>, width<span class="op">=</span><span class="fl">0.3</span>)</span></code></pre></div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>movie_id</th>
+      <th>rating</th>
+      <th>rating_timestamp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>1193</td>
+      <td>5</td>
+      <td>978300760</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>661</td>
+      <td>3</td>
+      <td>978302109</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1</td>
+      <td>914</td>
+      <td>3</td>
+      <td>978301968</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>3408</td>
+      <td>4</td>
+      <td>978300275</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1</td>
+      <td>2355</td>
+      <td>5</td>
+      <td>978824291</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1000204</th>
+      <td>6040</td>
+      <td>1091</td>
+      <td>1</td>
+      <td>956716541</td>
+    </tr>
+    <tr>
+      <th>1000205</th>
+      <td>6040</td>
+      <td>1094</td>
+      <td>5</td>
+      <td>956704887</td>
+    </tr>
+    <tr>
+      <th>1000206</th>
+      <td>6040</td>
+      <td>562</td>
+      <td>5</td>
+      <td>956704746</td>
+    </tr>
+    <tr>
+      <th>1000207</th>
+      <td>6040</td>
+      <td>1096</td>
+      <td>4</td>
+      <td>956715648</td>
+    </tr>
+    <tr>
+      <th>1000208</th>
+      <td>6040</td>
+      <td>1097</td>
+      <td>4</td>
+      <td>956715569</td>
+    </tr>
+  </tbody>
+</table>
+<p>1000209 rows × 4 columns</p>
+</div>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_c5770effcc694bc3abb92376ece48707/14832331ec0e3c6c4280fec5b78a27953990fe28.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>4.0 3.581564453029317
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_c5770effcc694bc3abb92376ece48707/b2b022796fb59d313d99213af9720819cb883aa2.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="29" data-colab="{&quot;height&quot;:328,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="_vMA7AUMr_Yq" data-outputId="c4d5628b-d230-4884-9497-8f7b3fe58902">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data preprocessing </span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>ratings[<span class="st">&quot;rating_datetime&quot;</span>] <span class="op">=</span> pd.to_datetime(ratings[<span class="st">&quot;rating_timestamp&quot;</span>], unit<span class="op">=</span><span class="st">&#39;s&#39;</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>ratings[<span class="st">&quot;year&quot;</span>] <span class="op">=</span> ratings[<span class="st">&#39;rating_datetime&#39;</span>].dt.year</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>ratings.set_index(<span class="st">&quot;rating_datetime&quot;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>ratings.groupby([<span class="st">&#39;year&#39;</span>])[<span class="st">&quot;year&quot;</span>].count().plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>,title<span class="op">=</span><span class="st">&quot;Collected Reviews by Year&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>&lt;AxesSubplot:title={&#39;center&#39;:&#39;Collected Reviews by Year&#39;}, xlabel=&#39;year&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_c5770effcc694bc3abb92376ece48707/2aed914f100b518970030583e36df2a5dbcbda56.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="30" data-colab="{&quot;height&quot;:433,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="8FDCvrpXjKhE" data-outputId="3d5ced65-1537-44f4-f302-564f6cead899">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Distribution of Age among users</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>users_tmp<span class="op">=</span> users.groupby([<span class="st">&#39;age&#39;</span>]).count().reset_index()</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>users_tmp.drop(columns<span class="op">=</span>[<span class="st">&quot;user_id&quot;</span>,	<span class="st">&quot;occupation&quot;</span>, <span class="st">&quot;occupation_name&quot;</span>], inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>users_tmp.columns <span class="op">=</span> [<span class="st">&quot;age&quot;</span>, <span class="st">&quot;count&quot;</span>]</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> users_tmp.plot(kind<span class="op">=</span><span class="st">&quot;bar&quot;</span>, x<span class="op">=</span><span class="st">&quot;age&quot;</span>, y<span class="op">=</span><span class="st">&quot;count&quot;</span>, title<span class="op">=</span><span class="st">&quot;Age Distribution&quot;</span>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>ax.set_xticklabels([<span class="st">&quot;&lt; 18&quot;</span>, <span class="st">&quot;18-24&quot;</span>, <span class="st">&quot;25-34&quot;</span>, <span class="st">&quot;35-44&quot;</span>, <span class="st">&quot;45-49&quot;</span>, <span class="st">&quot;50-55&quot;</span>, <span class="st">&quot;&gt;56&quot;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+<pre><code>[Text(0, 0, &#39;&lt; 18&#39;),
+ Text(1, 0, &#39;18-24&#39;),
+ Text(2, 0, &#39;25-34&#39;),
+ Text(3, 0, &#39;35-44&#39;),
+ Text(4, 0, &#39;45-49&#39;),
+ Text(5, 0, &#39;50-55&#39;),
+ Text(6, 0, &#39;&gt;56&#39;)]</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_c5770effcc694bc3abb92376ece48707/8324270bd6d1e0d9b6a6d7a6df2251b3e562a183.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="31" data-colab="{&quot;height&quot;:298,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="JO0zqJ5Q5p6h" data-outputId="46a00e18-14a9-4fc2-9e1f-7083cbfab874">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Check for correlations</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="co"># calculate the correlation matrix</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>corr <span class="op">=</span> mov[[<span class="st">&quot;rating&quot;</span>, <span class="st">&quot;age&quot;</span>, <span class="st">&quot;year&quot;</span>]].corr()</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="co"># plot the heatmap</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.axes()</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr, </span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>        xticklabels<span class="op">=</span>corr.columns,</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>        yticklabels<span class="op">=</span>corr.columns, cmap<span class="op">=</span><span class="st">&quot;magma&quot;</span>, ax<span class="op">=</span> ax)</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">&quot;Correlations&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+<pre><code>Text(0.5, 1.0, &#39;Correlations&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_c5770effcc694bc3abb92376ece48707/74f7e8d4aea8b1259d71747c91a19814159ba492.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="32" data-colab="{&quot;height&quot;:487,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="SorNFxSvC068" data-outputId="5509a024-d2b3-46a2-cdbc-812d0d6e5898">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>corr_genre <span class="op">=</span> mov.<span class="bu">filter</span>(regex<span class="op">=</span><span class="st">&#39;^genre&#39;</span>,axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>corr_genre[<span class="st">&quot;rating&quot;</span>] <span class="op">=</span> mov[[<span class="st">&quot;rating&quot;</span>]]</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>corr <span class="op">=</span> corr_genre.corr()</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.axes()</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr, </span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>        xticklabels<span class="op">=</span>corr.columns,</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>        yticklabels<span class="op">=</span>corr.columns, cmap<span class="op">=</span><span class="st">&quot;magma&quot;</span>, ax<span class="op">=</span> ax)</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">&quot;Genre Correlations&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-32-0127a5348bf8&gt;:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  corr_genre[&quot;rating&quot;] = mov[[&quot;rating&quot;]]
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="32">
+<pre><code>Text(0.5, 1.0, &#39;Genre Correlations&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_c5770effcc694bc3abb92376ece48707/a5bfef6c555ee3957542ac5a01f6cdb3d8d9fbdb.png" /></p>
+</div>
+</div>
+<section id="recommender-system" class="cell markdown" id="TAmj8qGuhQeZ">
+<h2>Recommender System</h2>
+</section>
+<div class="cell markdown" id="s8HiajDQg7Px">
+<p>####Movie Recommendation for Single Users</p>
+</div>
+<div class="cell code" data-execution_count="46" id="CpgUHCL37V5y">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime, time</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> zipfile</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> scipy.sparse <span class="im">as</span> sp</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> roc_auc_score</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras <span class="im">import</span> backend <span class="im">as</span> K</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Model</span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Embedding, Flatten, Input, Layer</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.optimizers <span class="im">import</span> Adam</span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.utils <span class="im">import</span> plot_model</span></code></pre></div>
+<div class="output error" data-ename="ModuleNotFoundError" data-evalue="No module named &#39;tensorflow&#39;">
+<pre><code>---------------------------------------------------------------------------
+ModuleNotFoundError                       Traceback (most recent call last)
+&lt;ipython-input-46-6ff2470f5647&gt; in &lt;module&gt;
+      5 import os
+      6 import zipfile
+----&gt; 7 import tensorflow as tf
+      8 
+      9 import numpy as np
+
+ModuleNotFoundError: No module named &#39;tensorflow&#39;
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="07pvoByAhMR_">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> string2ts(string, fmt<span class="op">=</span><span class="st">&quot;%Y-%m-</span><span class="sc">%d</span><span class="st"> %H:%M:%S&quot;</span>):</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>    dt <span class="op">=</span> datetime.datetime.strptime(string, fmt)</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>    t_tuple <span class="op">=</span> dt.timetuple()</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">int</span>(time.mktime(t_tuple))</span></code></pre></div>
+</div>
+<div class="cell code" data-colab="{&quot;height&quot;:428,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="8IpbtbY7zTQ3" data-outputId="94e0813c-fd22-4313-d6aa-c2047f580377">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>users <span class="op">=</span> mov[[<span class="st">&quot;uid&quot;</span>, <span class="st">&quot;age&quot;</span>, <span class="st">&quot;gender&quot;</span>, <span class="st">&quot;occupation&quot;</span>]].drop_duplicates()</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Number of users features: </span><span class="sc">{</span>users<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>display(mov.head())</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>movies <span class="op">=</span> mov[[<span class="st">&quot;iid&quot;</span>]<span class="op">+</span><span class="bu">list</span>(mov.columns[<span class="dv">3</span>:<span class="dv">20</span>])].drop_duplicates()</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Number of movies features: </span><span class="sc">{</span>movies<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Number of users features: 6040
+</code></pre>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>movie_id</th>
+      <th>title</th>
+      <th>genres</th>
+      <th>year</th>
+      <th>genreDocumentary</th>
+      <th>genreFantasy</th>
+      <th>genreComedy</th>
+      <th>genreDrama</th>
+      <th>genreChildren's</th>
+      <th>genreMusical</th>
+      <th>genreHorror</th>
+      <th>genreWar</th>
+      <th>genreCrime</th>
+      <th>genreWestern</th>
+      <th>genreSci-Fi</th>
+      <th>genreAction</th>
+      <th>genreRomance</th>
+      <th>genreAdventure</th>
+      <th>genreFilm-Noir</th>
+      <th>genreThriller</th>
+      <th>genreMystery</th>
+      <th>genreAnimation</th>
+      <th>user_id</th>
+      <th>rating</th>
+      <th>rating_timestamp</th>
+      <th>gender</th>
+      <th>age</th>
+      <th>occupation</th>
+      <th>occupation_name</th>
+      <th>iid</th>
+      <th>uid</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2</td>
+      <td>Jumanji (1995)</td>
+      <td>{Fantasy, Adventure, Children's}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>5</td>
+      <td>979168267</td>
+      <td>0</td>
+      <td>35</td>
+      <td>1</td>
+      <td>academic/educator</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>7</td>
+      <td>Sabrina (1995)</td>
+      <td>{Romance, Comedy}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>4</td>
+      <td>978227763</td>
+      <td>0</td>
+      <td>35</td>
+      <td>1</td>
+      <td>academic/educator</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>24</td>
+      <td>Powder (1995)</td>
+      <td>{Sci-Fi, Drama}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>3</td>
+      <td>978230586</td>
+      <td>0</td>
+      <td>35</td>
+      <td>1</td>
+      <td>academic/educator</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>32</td>
+      <td>Twelve Monkeys (1995)</td>
+      <td>{Sci-Fi, Drama}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>5</td>
+      <td>979168160</td>
+      <td>0</td>
+      <td>35</td>
+      <td>1</td>
+      <td>academic/educator</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>48</td>
+      <td>Pocahontas (1995)</td>
+      <td>{Romance, Animation, Children's, Musical}</td>
+      <td>1995</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>10</td>
+      <td>4</td>
+      <td>978230090</td>
+      <td>0</td>
+      <td>35</td>
+      <td>1</td>
+      <td>academic/educator</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div class="output stream stdout">
+<pre><code>Number of movies features: 3705
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="zKF6mZJWedQG">
+<p>Prepare data for the training</p>
+</div>
+<div class="cell code" id="Qrk--kDXeZGC">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create train and test split</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>train_idx, test_idx <span class="op">=</span> train_test_split(<span class="bu">range</span>(mov.shape[<span class="dv">0</span>]), test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>train <span class="op">=</span> mov.iloc[train_idx]</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a><span class="co"># train = pd.concat([train, new_user_train], sort=False)</span></span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>test <span class="op">=</span> mov.iloc[test_idx]</span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a><span class="co"># test = pd.concat([test, new_user_test], sort=False)</span></span></code></pre></div>
+</div>
+<div class="cell code" id="WsThaNz9ekNi">
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>train <span class="op">=</span> train[[<span class="st">&quot;uid&quot;</span>, <span class="st">&quot;iid&quot;</span>, <span class="st">&quot;rating&quot;</span>, <span class="st">&quot;rating_timestamp&quot;</span>]]</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>test <span class="op">=</span> test[[<span class="st">&quot;uid&quot;</span>, <span class="st">&quot;iid&quot;</span>, <span class="st">&quot;rating&quot;</span>, <span class="st">&quot;rating_timestamp&quot;</span>]]</span></code></pre></div>
+</div>
+<div class="cell markdown" id="rEiHYuQVf4ok">
+<p>###Siamese Neural Network</p>
+</div>
+<div class="cell markdown" id="Ccc4vKk6f4Zf">
+<p>####Data pre-processing for Siamese Network</p>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="oUEDjstbf47o" data-outputId="9d0fb2fa-51d1-4ae7-f360-2dbf81a12acf">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>uids <span class="op">=</span> <span class="bu">set</span>(train.uid.unique()).union(<span class="bu">set</span>(test.uid.unique()))</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>iids <span class="op">=</span> <span class="bu">set</span>(train.iid.unique()).union(<span class="bu">set</span>(test.iid.unique()))</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>rows <span class="op">=</span> <span class="bu">max</span>(uids) <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>cols <span class="op">=</span> <span class="bu">max</span>(iids) <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Users number: &quot;</span>, <span class="bu">len</span>(uids))</span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Movies number: &quot;</span>, <span class="bu">len</span>(iids))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Users number:  6040
+Movies number:  3705
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="aoNn6umxKaTG">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> _build_interaction_matrix(rows, cols, data):</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>    mat <span class="op">=</span> sp.lil_matrix((rows, cols), dtype<span class="op">=</span>np.int32)</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> uid, iid, rating, timestamp <span class="kw">in</span> data:</span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Let&#39;s assume only really good ratings are positives (ratings above 4) --&gt; idea: maybe create positive if value is above individual user rating avg</span></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> rating <span class="op">&gt;=</span> <span class="fl">4.0</span>:</span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>            mat[uid, iid] <span class="op">=</span> <span class="fl">1.0</span></span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> mat.tocoo()</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_triplets(mat):</span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> mat.row, mat.col, np.random.randint(mat.shape[<span class="dv">1</span>], size<span class="op">=</span><span class="bu">len</span>(mat.row))</span>
+<span id="cb42-14"><a href="#cb42-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-15"><a href="#cb42-15" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_sparse_matrix(df):</span>
+<span id="cb42-16"><a href="#cb42-16" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb42-17"><a href="#cb42-17" aria-hidden="true" tabindex="-1"></a><span class="co">    Return (train_interactions, test_interactions).</span></span>
+<span id="cb42-18"><a href="#cb42-18" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb42-19"><a href="#cb42-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> _build_interaction_matrix(rows, cols, df.values.tolist())</span></code></pre></div>
+</div>
+<div class="cell code" id="TVpjivpgK0IC">
+<div class="sourceCode" id="cb43"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> predict(model, uid, pids):</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>    user_vector <span class="op">=</span> model.get_layer(<span class="st">&#39;user_embedding&#39;</span>).get_weights()[<span class="dv">0</span>][uid]</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>    item_matrix <span class="op">=</span> model.get_layer(<span class="st">&#39;item_embedding&#39;</span>).get_weights()[<span class="dv">0</span>][pids]</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> (np.dot(user_vector,</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>                     item_matrix.T))</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> scores</span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> full_auc(model, ground_truth):</span>
+<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb43-11"><a href="#cb43-11" aria-hidden="true" tabindex="-1"></a><span class="co">    Measure AUC for model and ground truth on all items.</span></span>
+<span id="cb43-12"><a href="#cb43-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-13"><a href="#cb43-13" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns</span></span>
+<span id="cb43-14"><a href="#cb43-14" aria-hidden="true" tabindex="-1"></a><span class="co">    -------</span></span>
+<span id="cb43-15"><a href="#cb43-15" aria-hidden="true" tabindex="-1"></a><span class="co">    - float AUC</span></span>
+<span id="cb43-16"><a href="#cb43-16" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb43-17"><a href="#cb43-17" aria-hidden="true" tabindex="-1"></a>    ground_truth <span class="op">=</span> ground_truth.tocsr()</span>
+<span id="cb43-18"><a href="#cb43-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-19"><a href="#cb43-19" aria-hidden="true" tabindex="-1"></a>    no_users, no_items <span class="op">=</span> ground_truth.shape</span>
+<span id="cb43-20"><a href="#cb43-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-21"><a href="#cb43-21" aria-hidden="true" tabindex="-1"></a>    pid_array <span class="op">=</span> np.arange(no_items, dtype<span class="op">=</span>np.int32)</span>
+<span id="cb43-22"><a href="#cb43-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-23"><a href="#cb43-23" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> []</span>
+<span id="cb43-24"><a href="#cb43-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-25"><a href="#cb43-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> user_id, row <span class="kw">in</span> <span class="bu">enumerate</span>(ground_truth):</span>
+<span id="cb43-26"><a href="#cb43-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-27"><a href="#cb43-27" aria-hidden="true" tabindex="-1"></a>        predictions <span class="op">=</span> predict(model, user_id, pid_array)</span>
+<span id="cb43-28"><a href="#cb43-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-29"><a href="#cb43-29" aria-hidden="true" tabindex="-1"></a>        true_pids <span class="op">=</span> row.indices[row.data <span class="op">==</span> <span class="dv">1</span>]</span>
+<span id="cb43-30"><a href="#cb43-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-31"><a href="#cb43-31" aria-hidden="true" tabindex="-1"></a>        grnd <span class="op">=</span> np.zeros(no_items, dtype<span class="op">=</span>np.int32)</span>
+<span id="cb43-32"><a href="#cb43-32" aria-hidden="true" tabindex="-1"></a>        grnd[true_pids] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb43-33"><a href="#cb43-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-34"><a href="#cb43-34" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">len</span>(true_pids):</span>
+<span id="cb43-35"><a href="#cb43-35" aria-hidden="true" tabindex="-1"></a>            scores.append(roc_auc_score(grnd, predictions))</span>
+<span id="cb43-36"><a href="#cb43-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-37"><a href="#cb43-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.mean(scores)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="xVh743e9Lixa">
+<p>####Model Implementation</p>
+</div>
+<div class="cell code" id="aSs1ZcKyLh_M">
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> TripletLossLayer(Layer):</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> call(<span class="va">self</span>, inputs):</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>        positive_item_latent, negative_item_latent, user_latent <span class="op">=</span> inputs</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Bayesian Personalised Ranking (BPR) loss</span></span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>        loss <span class="op">=</span> <span class="fl">1.0</span> <span class="op">-</span> K.sigmoid(</span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>            K.<span class="bu">sum</span>(user_latent <span class="op">*</span> positive_item_latent, axis<span class="op">=-</span><span class="dv">1</span>, keepdims<span class="op">=</span><span class="va">True</span>) <span class="op">-</span></span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>            K.<span class="bu">sum</span>(user_latent <span class="op">*</span> negative_item_latent, axis<span class="op">=-</span><span class="dv">1</span>, keepdims<span class="op">=</span><span class="va">True</span>))</span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-10"><a href="#cb44-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> loss</span></code></pre></div>
+</div>
+<div class="cell code" id="UCsOalC0MRa4">
+<div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> identity_loss(y_true, y_pred):</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> K.mean(y_pred <span class="op">-</span> <span class="dv">0</span> <span class="op">*</span> y_true)</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> build_model(num_users, num_items, latent_dim):</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>    positive_item_input <span class="op">=</span> Input((<span class="dv">1</span>, ), name<span class="op">=</span><span class="st">&#39;positive_item_input&#39;</span>)</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>    negative_item_input <span class="op">=</span> Input((<span class="dv">1</span>, ), name<span class="op">=</span><span class="st">&#39;negative_item_input&#39;</span>)</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Shared embedding layer for positive and negative items</span></span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>    item_embedding_layer <span class="op">=</span> Embedding(num_items, latent_dim, name<span class="op">=</span><span class="st">&#39;item_embedding&#39;</span>, input_length<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> Input((<span class="dv">1</span>, ), name<span class="op">=</span><span class="st">&#39;user_input&#39;</span>)</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>    positive_item_embedding <span class="op">=</span> Flatten()(item_embedding_layer(positive_item_input))</span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a>    negative_item_embedding <span class="op">=</span> Flatten()(item_embedding_layer(negative_item_input))</span>
+<span id="cb45-15"><a href="#cb45-15" aria-hidden="true" tabindex="-1"></a>    user_embedding <span class="op">=</span> Flatten()(Embedding(num_users, latent_dim, name<span class="op">=</span><span class="st">&#39;user_embedding&#39;</span>, input_length<span class="op">=</span><span class="dv">1</span>)(user_input))</span>
+<span id="cb45-16"><a href="#cb45-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb45-17"><a href="#cb45-17" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> TripletLossLayer()((positive_item_embedding, negative_item_embedding, user_embedding)) <span class="co"># calculate BPR loss</span></span>
+<span id="cb45-18"><a href="#cb45-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb45-19"><a href="#cb45-19" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> Model([positive_item_input, negative_item_input, user_input], loss)</span>
+<span id="cb45-20"><a href="#cb45-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb45-21"><a href="#cb45-21" aria-hidden="true" tabindex="-1"></a>    model.<span class="bu">compile</span>(loss<span class="op">=</span>identity_loss, optimizer<span class="op">=</span>Adam())</span>
+<span id="cb45-22"><a href="#cb45-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb45-23"><a href="#cb45-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model</span></code></pre></div>
+</div>
+<div class="cell markdown" id="ZIQYQhfkMY8d">
+<p>####Training</p>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="vJ9PPVASMUZb" data-outputId="35d93c8b-5d1a-47df-a8ff-203d1c4b1fda">
+<div class="sourceCode" id="cb46"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>latent_dim <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Read data</span></span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>d_train <span class="op">=</span> create_sparse_matrix(train)</span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>d_test <span class="op">=</span> create_sparse_matrix(test)</span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>num_users, num_items <span class="op">=</span> d_train.shape</span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare the test triplets</span></span>
+<span id="cb46-9"><a href="#cb46-9" aria-hidden="true" tabindex="-1"></a>test_uid, test_pid, test_nid <span class="op">=</span> get_triplets(d_test)</span>
+<span id="cb46-10"><a href="#cb46-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-11"><a href="#cb46-11" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> build_model(num_users, num_items, latent_dim)</span>
+<span id="cb46-12"><a href="#cb46-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-13"><a href="#cb46-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the model structure</span></span>
+<span id="cb46-14"><a href="#cb46-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(model.summary())</span>
+<span id="cb46-15"><a href="#cb46-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-16"><a href="#cb46-16" aria-hidden="true" tabindex="-1"></a>plot_model(model, to_file<span class="op">=</span><span class="st">&quot;model_plot.png&quot;</span>, show_shapes<span class="op">=</span><span class="va">True</span>, show_layer_names<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb46-17"><a href="#cb46-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-18"><a href="#cb46-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Sanity check, should be around 0.5</span></span>
+<span id="cb46-19"><a href="#cb46-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;AUC before training </span><span class="sc">{</span>full_auc(model, d_test)<span class="sc">}</span><span class="ss">&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;model&quot;
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+positive_item_input (InputLayer [(None, 1)]          0                                            
+__________________________________________________________________________________________________
+negative_item_input (InputLayer [(None, 1)]          0                                            
+__________________________________________________________________________________________________
+user_input (InputLayer)         [(None, 1)]          0                                            
+__________________________________________________________________________________________________
+item_embedding (Embedding)      (None, 1, 100)       370500      positive_item_input[0][0]        
+                                                                 negative_item_input[0][0]        
+__________________________________________________________________________________________________
+user_embedding (Embedding)      (None, 1, 100)       604000      user_input[0][0]                 
+__________________________________________________________________________________________________
+flatten (Flatten)               (None, 100)          0           item_embedding[0][0]             
+__________________________________________________________________________________________________
+flatten_1 (Flatten)             (None, 100)          0           item_embedding[1][0]             
+__________________________________________________________________________________________________
+flatten_2 (Flatten)             (None, 100)          0           user_embedding[0][0]             
+__________________________________________________________________________________________________
+triplet_loss_layer (TripletLoss (None, 1)            0           flatten[0][0]                    
+                                                                 flatten_1[0][0]                  
+                                                                 flatten_2[0][0]                  
+==================================================================================================
+Total params: 974,500
+Trainable params: 974,500
+Non-trainable params: 0
+__________________________________________________________________________________________________
+None
+AUC before training 0.49968523382217533
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="qRm50C-8O_gq" data-outputId="31454e98-841e-4158-88e2-3e48471259f2">
+<div class="sourceCode" id="cb48"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>num_epochs <span class="op">=</span> <span class="dv">15</span> <span class="co"># 15</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>accuracies_test <span class="op">=</span> []</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>accuracies_train <span class="op">=</span> []</span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>losses <span class="op">=</span> []</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> epoch <span class="kw">in</span> <span class="bu">range</span>(num_epochs):</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;Epoch </span><span class="sc">{</span>epoch<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Sample triplets from the training data</span></span>
+<span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a>    uid, pid, nid <span class="op">=</span> get_triplets(d_train)</span>
+<span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb48-14"><a href="#cb48-14" aria-hidden="true" tabindex="-1"></a>    X <span class="op">=</span> {</span>
+<span id="cb48-15"><a href="#cb48-15" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;user_input&#39;</span>: uid,</span>
+<span id="cb48-16"><a href="#cb48-16" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;positive_item_input&#39;</span>: pid,</span>
+<span id="cb48-17"><a href="#cb48-17" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;negative_item_input&#39;</span>: nid</span>
+<span id="cb48-18"><a href="#cb48-18" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb48-19"><a href="#cb48-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># for item in X:</span></span>
+<span id="cb48-20"><a href="#cb48-20" aria-hidden="true" tabindex="-1"></a>    <span class="co">#   display(item.value)</span></span>
+<span id="cb48-21"><a href="#cb48-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-22"><a href="#cb48-22" aria-hidden="true" tabindex="-1"></a>    history <span class="op">=</span> model.fit(X, </span>
+<span id="cb48-23"><a href="#cb48-23" aria-hidden="true" tabindex="-1"></a>                      np.ones(<span class="bu">len</span>(uid)),</span>
+<span id="cb48-24"><a href="#cb48-24" aria-hidden="true" tabindex="-1"></a>                      batch_size<span class="op">=</span><span class="dv">64</span>,</span>
+<span id="cb48-25"><a href="#cb48-25" aria-hidden="true" tabindex="-1"></a>                      epochs<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb48-26"><a href="#cb48-26" aria-hidden="true" tabindex="-1"></a>                      verbose<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb48-27"><a href="#cb48-27" aria-hidden="true" tabindex="-1"></a>                      shuffle<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb48-28"><a href="#cb48-28" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> history.history[<span class="st">&quot;loss&quot;</span>]</span>
+<span id="cb48-29"><a href="#cb48-29" aria-hidden="true" tabindex="-1"></a>    losses.append(loss)</span>
+<span id="cb48-30"><a href="#cb48-30" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb48-31"><a href="#cb48-31" aria-hidden="true" tabindex="-1"></a>    acc <span class="op">=</span> full_auc(model, d_test)</span>
+<span id="cb48-32"><a href="#cb48-32" aria-hidden="true" tabindex="-1"></a>    accuracies_test.append(acc)</span>
+<span id="cb48-33"><a href="#cb48-33" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;Test AUC </span><span class="sc">{</span>acc<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb48-34"><a href="#cb48-34" aria-hidden="true" tabindex="-1"></a>    acc <span class="op">=</span> full_auc(model, d_train)</span>
+<span id="cb48-35"><a href="#cb48-35" aria-hidden="true" tabindex="-1"></a>    accuracies_train.append(acc)</span>
+<span id="cb48-36"><a href="#cb48-36" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;Train AUC </span><span class="sc">{</span>acc<span class="sc">}</span><span class="ch">\n</span><span class="ss">&#39;</span>)</span>
+<span id="cb48-37"><a href="#cb48-37" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Loss:&quot;</span>, losses[<span class="op">-</span><span class="dv">1</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 0
+7172/7172 [==============================] - 36s 5ms/step - loss: 0.1468
+Test AUC 0.883881721568904
+Train AUC 0.893402051912322
+
+Loss: [0.1467898190021515]
+Epoch 1
+7172/7172 [==============================] - 35s 5ms/step - loss: 0.1330
+Test AUC 0.8931566536871192
+Train AUC 0.9048056988042469
+
+Loss: [0.13296979665756226]
+Epoch 2
+7172/7172 [==============================] - 35s 5ms/step - loss: 0.1215
+Test AUC 0.9007624105853363
+Train AUC 0.9140258296397342
+
+Loss: [0.12148323655128479]
+Epoch 3
+7172/7172 [==============================] - 33s 5ms/step - loss: 0.1149
+Test AUC 0.9061839459742618
+Train AUC 0.9213455358425822
+
+Loss: [0.11494197696447372]
+Epoch 4
+7172/7172 [==============================] - 36s 5ms/step - loss: 0.1088
+Test AUC 0.9106399823978272
+Train AUC 0.9277556727807694
+
+Loss: [0.10880355536937714]
+Epoch 5
+7172/7172 [==============================] - 35s 5ms/step - loss: 0.1043
+Test AUC 0.9141919419317946
+Train AUC 0.9328198075777381
+
+Loss: [0.10433626919984818]
+Epoch 6
+7172/7172 [==============================] - 34s 5ms/step - loss: 0.1004
+Test AUC 0.9167537525812851
+Train AUC 0.9368703000958025
+
+Loss: [0.10039594024419785]
+Epoch 7
+7172/7172 [==============================] - 35s 5ms/step - loss: 0.0970
+Test AUC 0.9187966982079231
+Train AUC 0.94036524844006
+
+Loss: [0.09700873494148254]
+Epoch 8
+7172/7172 [==============================] - 34s 5ms/step - loss: 0.0941
+Test AUC 0.9204848926992951
+Train AUC 0.9432992104232822
+
+Loss: [0.0940796509385109]
+Epoch 9
+7172/7172 [==============================] - 36s 5ms/step - loss: 0.0916
+Test AUC 0.9216664468908782
+Train AUC 0.9457640524085305
+
+Loss: [0.09157633036375046]
+Epoch 10
+7172/7172 [==============================] - 34s 5ms/step - loss: 0.0887
+Test AUC 0.9227580445056281
+Train AUC 0.9482243007479626
+
+Loss: [0.08871264010667801]
+Epoch 11
+7172/7172 [==============================] - 34s 5ms/step - loss: 0.0872
+Test AUC 0.9234393157915586
+Train AUC 0.9502955189574004
+
+Loss: [0.08719402551651001]
+Epoch 12
+7172/7172 [==============================] - 35s 5ms/step - loss: 0.0855
+Test AUC 0.9243564805029276
+Train AUC 0.9524086986229173
+
+Loss: [0.08545327931642532]
+Epoch 13
+7172/7172 [==============================] - 36s 5ms/step - loss: 0.0836
+Test AUC 0.9248635492300654
+Train AUC 0.954310827406669
+
+Loss: [0.08364738523960114]
+Epoch 14
+7172/7172 [==============================] - 35s 5ms/step - loss: 0.0812
+Test AUC 0.9255735226061337
+Train AUC 0.9561142970442352
+
+Loss: [0.08120197802782059]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;height&quot;:446,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="_6KfBgfnd9Hj" data-outputId="9fcbbb02-1b8b-4205-c105-8a57879cf55c">
+<div class="sourceCode" id="cb50"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>fig, (ax1, ax2) <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">7</span>))</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create count of the number of epochs</span></span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>epoch_count <span class="op">=</span> <span class="bu">range</span>(<span class="dv">1</span>, num_epochs <span class="op">+</span> <span class="dv">1</span>)</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize loss history</span></span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a>ax1.plot(epoch_count, losses, <span class="st">&#39;r--&#39;</span>, label<span class="op">=</span><span class="st">&#39;Training&#39;</span>)</span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a>ax1.legend()</span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>ax1.set_xlabel(<span class="st">&#39;Epoch&#39;</span>)</span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a>ax1.set_ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a>ax2.plot(epoch_count, accuracies_test, <span class="st">&#39;r-&#39;</span>, label<span class="op">=</span><span class="st">&#39;Test&#39;</span>)</span>
+<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a>ax2.plot(epoch_count, accuracies_train, <span class="st">&#39;b-&#39;</span>, label<span class="op">=</span><span class="st">&#39;Train&#39;</span>)</span>
+<span id="cb50-14"><a href="#cb50-14" aria-hidden="true" tabindex="-1"></a>ax2.legend()</span>
+<span id="cb50-15"><a href="#cb50-15" aria-hidden="true" tabindex="-1"></a>ax2.set_xlabel(<span class="st">&#39;Epoch&#39;</span>)</span>
+<span id="cb50-16"><a href="#cb50-16" aria-hidden="true" tabindex="-1"></a>ax2.set_ylabel(<span class="st">&#39;Accuracy&#39;</span>)</span>
+<span id="cb50-17"><a href="#cb50-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_c5770effcc694bc3abb92376ece48707/3293f55a2043f3f157a48b3b4c3ec9174d9f6051.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="f4lqrW3_e8sb">
+<p>###Observe the recommendation results for our user</p>
+</div>
+<div class="cell code" id="lpg107apgWqO">
+<div class="sourceCode" id="cb51"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> predict_movies(model, user_id):</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>    movie_ids <span class="op">=</span> <span class="bu">list</span>(mov.iid.unique())</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>    prediction <span class="op">=</span> predict(model, user_id, movie_ids)</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>    rated_high <span class="op">=</span> [<span class="dv">1</span> <span class="cf">if</span> np.<span class="bu">round</span>(i)<span class="op">&gt;</span><span class="fl">0.5</span> <span class="cf">else</span> <span class="dv">0</span> <span class="cf">for</span> i <span class="kw">in</span> prediction]</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>    good_movie_ids <span class="op">=</span> np.where(np.array(rated_high) <span class="op">==</span> <span class="dv">1</span>)[<span class="dv">0</span>]  </span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">list</span>(good_movie_ids)</span></code></pre></div>
+</div>
+<div class="cell code" id="tktyq93Q7k4a">
+<div class="sourceCode" id="cb52"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> predict_top_k_movies(model, user_id, k):</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>    n_users, n_movies <span class="op">=</span> d_train.shape</span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>    prediction <span class="op">=</span> predict(model, user_id, np.arange(n_movies))</span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a>    movie_ids <span class="op">=</span> mov.iid.unique()</span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> movie_ids[np.argsort(<span class="op">-</span>prediction)][:k]</span></code></pre></div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="5Z26tjis77v3" data-outputId="443a6cde-0ece-42b0-fa12-12018bf58b8b">
+<div class="sourceCode" id="cb53"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>user_id <span class="op">=</span> random.choice(users.uid.tolist())</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>predicted_good_movies <span class="op">=</span> predict_movies(model, user_id)</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>known_positives <span class="op">=</span> train[(train.iid.isin(d_train.tocsr()[user_id].indices))<span class="op">&amp;</span>(train.uid<span class="op">==</span>user_id)][<span class="st">&quot;iid&quot;</span>]</span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a>top_movies <span class="op">=</span> predict_top_k_movies(model, user_id, k)</span>
+<span id="cb53-9"><a href="#cb53-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-10"><a href="#cb53-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;User ID:&quot;</span>,user_id)</span>
+<span id="cb53-11"><a href="#cb53-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;     </span><span class="sc">{k}</span><span class="ss"> Known Likes:&quot;</span>)</span>
+<span id="cb53-12"><a href="#cb53-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> x <span class="kw">in</span> known_positives[:k]:</span>
+<span id="cb53-13"><a href="#cb53-13" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;        </span><span class="sc">{</span>mov[mov.iid<span class="op">==</span>x][<span class="st">&#39;iid&#39;</span>]<span class="sc">.</span>iloc[<span class="dv">0</span>]<span class="sc">}</span><span class="ss"> | </span><span class="sc">{</span>mov[mov.iid<span class="op">==</span>x][<span class="st">&#39;title&#39;</span>]<span class="sc">.</span>iloc[<span class="dv">0</span>]<span class="sc">}</span><span class="ss">&quot;</span> )</span>
+<span id="cb53-14"><a href="#cb53-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb53-15"><a href="#cb53-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;     </span><span class="sc">{k}</span><span class="ss"> Recommendations:&quot;</span>)</span>
+<span id="cb53-16"><a href="#cb53-16" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> x <span class="kw">in</span> top_movies:</span>
+<span id="cb53-17"><a href="#cb53-17" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;        </span><span class="sc">{</span>mov[mov.iid<span class="op">==</span>x][<span class="st">&#39;iid&#39;</span>]<span class="sc">.</span>iloc[<span class="dv">0</span>]<span class="sc">}</span><span class="ss"> | </span><span class="sc">{</span>mov[mov.iid<span class="op">==</span>x][<span class="st">&#39;title&#39;</span>]<span class="sc">.</span>iloc[<span class="dv">0</span>]<span class="sc">}</span><span class="ss">&quot;</span> )</span>
+<span id="cb53-18"><a href="#cb53-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-19"><a href="#cb53-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Total number of movies the user likes:&quot;</span>,<span class="bu">len</span>(known_positives))</span>
+<span id="cb53-20"><a href="#cb53-20" aria-hidden="true" tabindex="-1"></a>matching_predictions <span class="op">=</span> <span class="bu">set</span>(top_movies).intersection(known_positives)</span>
+<span id="cb53-21"><a href="#cb53-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Recommendation Accuracy for this user:&quot;</span>,<span class="bu">len</span>(matching_predictions)<span class="op">/</span>k)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>User ID: 4724
+     10 Known Likes:
+        676 | Devil&#39;s Advocate, The (1997)
+        1275 | Blair Witch Project, The (1999)
+        133 | Army of Darkness (1993)
+        1149 | Frighteners, The (1996)
+        1047 | Sleepy Hollow (1999)
+        1922 | Henry: Portrait of a Serial Killer (1990)
+        1067 | Misery (1990)
+        180 | Jaws (1975)
+        40 | Schindler&#39;s List (1993)
+        719 | eXistenZ (1999)
+     10 Recommendations:
+        132 | Alien (1979)
+        321 | American Beauty (1999)
+        302 | Matrix, The (1999)
+        141 | Terminator, The (1984)
+        18 | Star Wars: Episode IV - A New Hope (1977)
+        314 | Sixth Sense, The (1999)
+        7 | Braveheart (1995)
+        49 | Terminator 2: Judgment Day (1991)
+        674 | Scream (1996)
+        124 | Star Wars: Episode V - The Empire Strikes Back (1980)
+
+Total number of movies the user likes: 18
+Recommendation Accuracy for this user: 0.0
+</code></pre>
+</div>
+</div>
+<section id="evaluation" class="cell markdown" id="iRf2l5_4j6YA">
+<h1>Evaluation</h1>
+</section>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="HORkae8PQ32R" data-outputId="289441fe-105b-4412-9d87-1759032b42f9">
+<div class="sourceCode" id="cb55"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;## Testing the SAE&quot;&quot;&quot;</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.nn <span class="im">as</span> nn</span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch.autograd <span class="im">import</span> Variable</span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a>criterion <span class="op">=</span> nn.MSELoss()</span>
+<span id="cb55-7"><a href="#cb55-7" aria-hidden="true" tabindex="-1"></a>dense_test <span class="op">=</span> d_test.todense() <span class="co"># convert sparse to dense matrix</span></span>
+<span id="cb55-8"><a href="#cb55-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-9"><a href="#cb55-9" aria-hidden="true" tabindex="-1"></a>movie_ids <span class="op">=</span> <span class="bu">list</span>(mov.iid.unique())</span>
+<span id="cb55-10"><a href="#cb55-10" aria-hidden="true" tabindex="-1"></a>user_ids <span class="op">=</span> <span class="bu">list</span>(mov.uid.unique())</span>
+<span id="cb55-11"><a href="#cb55-11" aria-hidden="true" tabindex="-1"></a>test_loss <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb55-12"><a href="#cb55-12" aria-hidden="true" tabindex="-1"></a>s <span class="op">=</span> <span class="fl">0.</span></span>
+<span id="cb55-13"><a href="#cb55-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> uid <span class="kw">in</span> user_ids:</span>
+<span id="cb55-14"><a href="#cb55-14" aria-hidden="true" tabindex="-1"></a>  target <span class="op">=</span> torch.from_numpy(dense_test[uid]) <span class="co"># make it a tensor</span></span>
+<span id="cb55-15"><a href="#cb55-15" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> torch.<span class="bu">sum</span>(target.data <span class="op">&gt;</span> <span class="dv">0</span>) <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb55-16"><a href="#cb55-16" aria-hidden="true" tabindex="-1"></a>    target.require_grad <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb55-17"><a href="#cb55-17" aria-hidden="true" tabindex="-1"></a>    output <span class="op">=</span> torch.from_numpy(predict(model, uid, movie_ids)) <span class="co"># make predictions for that user</span></span>
+<span id="cb55-18"><a href="#cb55-18" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> criterion(output, target)</span>
+<span id="cb55-19"><a href="#cb55-19" aria-hidden="true" tabindex="-1"></a>    mean_corrector <span class="op">=</span> <span class="bu">len</span>(movie_ids)<span class="op">/</span><span class="bu">float</span>(torch.<span class="bu">sum</span>(target.data <span class="op">&gt;</span> <span class="dv">0</span>) <span class="op">+</span> <span class="fl">1e-10</span>)</span>
+<span id="cb55-20"><a href="#cb55-20" aria-hidden="true" tabindex="-1"></a>    test_loss <span class="op">+=</span> np.sqrt(loss.data<span class="op">*</span>mean_corrector)</span>
+<span id="cb55-21"><a href="#cb55-21" aria-hidden="true" tabindex="-1"></a>    s <span class="op">+=</span> <span class="fl">1.</span></span>
+<span id="cb55-22"><a href="#cb55-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;test loss: &#39;</span><span class="op">+</span><span class="bu">str</span>(test_loss<span class="op">/</span>s))</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.7/dist-packages/torch/nn/modules/loss.py:528: UserWarning: Using a target size (torch.Size([1, 3705])) that is different to the input size (torch.Size([3705])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>test loss: tensor(162.8375)
+</code></pre>
+</div>
+</div>
+<section id="autoencoders-baseline" class="cell markdown" id="3AB6ZatFQz5V">
+<h1>Autoencoders Baseline</h1>
+</section>
+<div class="cell code" data-colab="{&quot;height&quot;:1000,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="aDahAkD0Q4yT" data-outputId="0c04ad46-fd06-499d-9229-d9bfaf992d51">
+<div class="sourceCode" id="cb58"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -*- coding: utf-8 -*-</span></span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot; We will implement our Autoencoders with PyTorch, a highly advanced Deep Learning &amp; AI platform.</span></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;  please make sure to install PyTorch on your machine. Below are the Installation Instructions:</span></span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;   Windows users, please open the anaconda prompt, which you can find this way:</span></span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a><span class="co">Windows Button in the lower left corner -&gt; List of programs -&gt; anaconda -&gt; anaconda prompt</span></span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a><span class="co">Then inside the anaconda prompt, copy paste and enter each of the following line commands separately:</span></span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a><span class="co">                    conda install -c pytorch pytorch</span></span>
+<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a><span class="co">Note : I personally did not use this command.  I created a virtual environment in Anaconda, because </span></span>
+<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a><span class="co">I didn&#39;t want to mess up my tensorflow installation.</span></span>
+<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-14"><a href="#cb58-14" aria-hidden="true" tabindex="-1"></a><span class="co">please try to install the Pytorch and make this code run.</span></span>
+<span id="cb58-15"><a href="#cb58-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-16"><a href="#cb58-16" aria-hidden="true" tabindex="-1"></a><span class="co">--------- </span></span>
+<span id="cb58-17"><a href="#cb58-17" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot; (Explanation): In this code you will see how the AEs are being used to predict the rating. </span></span>
+<span id="cb58-18"><a href="#cb58-18" aria-hidden="true" tabindex="-1"></a><span class="co">As you have also seen in the code, we are going to sue the MovieLens dataset. </span></span>
+<span id="cb58-19"><a href="#cb58-19" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;</span></span>
+<span id="cb58-20"><a href="#cb58-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-21"><a href="#cb58-21" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;##Importing the libraries&quot;&quot;&quot;</span></span>
+<span id="cb58-22"><a href="#cb58-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-23"><a href="#cb58-23" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb58-24"><a href="#cb58-24" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb58-25"><a href="#cb58-25" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb58-26"><a href="#cb58-26" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.nn <span class="im">as</span> nn</span>
+<span id="cb58-27"><a href="#cb58-27" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.nn.parallel</span>
+<span id="cb58-28"><a href="#cb58-28" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.optim <span class="im">as</span> optim</span>
+<span id="cb58-29"><a href="#cb58-29" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.utils.data</span>
+<span id="cb58-30"><a href="#cb58-30" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch.autograd <span class="im">import</span> Variable</span>
+<span id="cb58-31"><a href="#cb58-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-32"><a href="#cb58-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-33"><a href="#cb58-33" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;## Importing the dataset&quot;&quot;&quot;</span></span>
+<span id="cb58-34"><a href="#cb58-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-35"><a href="#cb58-35" aria-hidden="true" tabindex="-1"></a><span class="co"># We won&#39;t be using this dataset.</span></span>
+<span id="cb58-36"><a href="#cb58-36" aria-hidden="true" tabindex="-1"></a><span class="co"># movies = pd.read_csv(&#39;ml-1m/movies.dat&#39;, sep = &#39;::&#39;, header = None, engine = &#39;python&#39;, encoding = &#39;latin-1&#39;)</span></span>
+<span id="cb58-37"><a href="#cb58-37" aria-hidden="true" tabindex="-1"></a><span class="co"># users = pd.read_csv(&#39;ml-1m/users.dat&#39;, sep = &#39;::&#39;, header = None, engine = &#39;python&#39;, encoding = &#39;latin-1&#39;)</span></span>
+<span id="cb58-38"><a href="#cb58-38" aria-hidden="true" tabindex="-1"></a>ratings <span class="op">=</span> pd.read_csv(<span class="st">&#39;ml-1m/ratings.dat&#39;</span>, sep <span class="op">=</span> <span class="st">&#39;::&#39;</span>, header <span class="op">=</span> <span class="va">None</span>, engine <span class="op">=</span> <span class="st">&#39;python&#39;</span>, encoding <span class="op">=</span> <span class="st">&#39;latin-1&#39;</span>)</span>
+<span id="cb58-39"><a href="#cb58-39" aria-hidden="true" tabindex="-1"></a>ratings.columns <span class="op">=</span> [<span class="st">&quot;user_id&quot;</span>, <span class="st">&quot;movie_id&quot;</span>, <span class="st">&quot;rating&quot;</span>, <span class="st">&quot;time&quot;</span>]</span>
+<span id="cb58-40"><a href="#cb58-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-41"><a href="#cb58-41" aria-hidden="true" tabindex="-1"></a><span class="co"># create consecutive ids for movies and users</span></span>
+<span id="cb58-42"><a href="#cb58-42" aria-hidden="true" tabindex="-1"></a>id2movie <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">enumerate</span>(ratings.movie_id.unique()))</span>
+<span id="cb58-43"><a href="#cb58-43" aria-hidden="true" tabindex="-1"></a>movie2id <span class="op">=</span> {y:x <span class="cf">for</span> x,y <span class="kw">in</span> id2movie.items()}</span>
+<span id="cb58-44"><a href="#cb58-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-45"><a href="#cb58-45" aria-hidden="true" tabindex="-1"></a>id2user <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">enumerate</span>(ratings.user_id.unique()))</span>
+<span id="cb58-46"><a href="#cb58-46" aria-hidden="true" tabindex="-1"></a>user2id <span class="op">=</span> {y:x <span class="cf">for</span> x,y <span class="kw">in</span> id2user.items()}</span>
+<span id="cb58-47"><a href="#cb58-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-48"><a href="#cb58-48" aria-hidden="true" tabindex="-1"></a>ratings[<span class="st">&quot;movie_id&quot;</span>] <span class="op">=</span> ratings.<span class="bu">apply</span>(<span class="kw">lambda</span> x: movie2id[x.movie_id], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb58-49"><a href="#cb58-49" aria-hidden="true" tabindex="-1"></a>ratings[<span class="st">&quot;user_id&quot;</span>] <span class="op">=</span> ratings.<span class="bu">apply</span>(<span class="kw">lambda</span> x: user2id[x.user_id], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb58-50"><a href="#cb58-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-51"><a href="#cb58-51" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;## Preparing the training set and the test set&quot;&quot;&quot;</span></span>
+<span id="cb58-52"><a href="#cb58-52" aria-hidden="true" tabindex="-1"></a>training_set <span class="op">=</span> ratings.iloc[train_idx]</span>
+<span id="cb58-53"><a href="#cb58-53" aria-hidden="true" tabindex="-1"></a>training_set <span class="op">=</span> np.array(training_set, dtype <span class="op">=</span> <span class="st">&#39;int&#39;</span>)</span>
+<span id="cb58-54"><a href="#cb58-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-55"><a href="#cb58-55" aria-hidden="true" tabindex="-1"></a>test_set <span class="op">=</span> ratings.iloc[test_idx]</span>
+<span id="cb58-56"><a href="#cb58-56" aria-hidden="true" tabindex="-1"></a>test_set <span class="op">=</span> np.array(test_set, dtype <span class="op">=</span> <span class="st">&#39;int&#39;</span>)</span>
+<span id="cb58-57"><a href="#cb58-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-58"><a href="#cb58-58" aria-hidden="true" tabindex="-1"></a><span class="co"># training_set = ratings.iloc[train_idx]</span></span>
+<span id="cb58-59"><a href="#cb58-59" aria-hidden="true" tabindex="-1"></a><span class="co"># test_set = ratings.iloc[test_idx]</span></span>
+<span id="cb58-60"><a href="#cb58-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-61"><a href="#cb58-61" aria-hidden="true" tabindex="-1"></a>display(training_set)</span>
+<span id="cb58-62"><a href="#cb58-62" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;## Getting the number of users and movies&quot;&quot;&quot;</span></span>
+<span id="cb58-63"><a href="#cb58-63" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;##(Explanation): we need to convert our training and test set into matrix, the rows are going to be the users</span></span>
+<span id="cb58-64"><a href="#cb58-64" aria-hidden="true" tabindex="-1"></a><span class="co">and the columns are going to be the ratings. this matrix we will create for the training and the test set&quot;&quot;&quot;</span></span>
+<span id="cb58-65"><a href="#cb58-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-66"><a href="#cb58-66" aria-hidden="true" tabindex="-1"></a><span class="co"># nb_users = int(max(max(training_set[:, 0], ), max(test_set[:, 0])))</span></span>
+<span id="cb58-67"><a href="#cb58-67" aria-hidden="true" tabindex="-1"></a><span class="co"># nb_movies = int(max(max(training_set[:, 1], ), max(test_set[:, 1])))</span></span>
+<span id="cb58-68"><a href="#cb58-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-69"><a href="#cb58-69" aria-hidden="true" tabindex="-1"></a>nb_users <span class="op">=</span> <span class="bu">len</span>(ratings[<span class="st">&quot;user_id&quot;</span>].unique())</span>
+<span id="cb58-70"><a href="#cb58-70" aria-hidden="true" tabindex="-1"></a>nb_movies <span class="op">=</span> <span class="bu">len</span>(ratings[<span class="st">&quot;movie_id&quot;</span>].unique())</span>
+<span id="cb58-71"><a href="#cb58-71" aria-hidden="true" tabindex="-1"></a><span class="co"># print(nb_users, nb_movies)</span></span>
+<span id="cb58-72"><a href="#cb58-72" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;## Converting the data into an array with users in lines and movies in columns&quot;&quot;&quot;</span></span>
+<span id="cb58-73"><a href="#cb58-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-74"><a href="#cb58-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-75"><a href="#cb58-75" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> convert(data):</span>
+<span id="cb58-76"><a href="#cb58-76" aria-hidden="true" tabindex="-1"></a>  new_data <span class="op">=</span> []</span>
+<span id="cb58-77"><a href="#cb58-77" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> id_users <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, nb_users <span class="op">+</span> <span class="dv">1</span>): <span class="co"># for each user</span></span>
+<span id="cb58-78"><a href="#cb58-78" aria-hidden="true" tabindex="-1"></a>    id_movies <span class="op">=</span> data[:, <span class="dv">1</span>] [data[:, <span class="dv">0</span>] <span class="op">==</span> id_users]</span>
+<span id="cb58-79"><a href="#cb58-79" aria-hidden="true" tabindex="-1"></a>    id_ratings <span class="op">=</span> data[:, <span class="dv">2</span>] [data[:, <span class="dv">0</span>] <span class="op">==</span> id_users]</span>
+<span id="cb58-80"><a href="#cb58-80" aria-hidden="true" tabindex="-1"></a>    ratings <span class="op">=</span> np.zeros(nb_movies)</span>
+<span id="cb58-81"><a href="#cb58-81" aria-hidden="true" tabindex="-1"></a>    ratings[id_movies <span class="op">-</span> <span class="dv">1</span>] <span class="op">=</span> id_ratings</span>
+<span id="cb58-82"><a href="#cb58-82" aria-hidden="true" tabindex="-1"></a>    new_data.append(<span class="bu">list</span>(ratings))</span>
+<span id="cb58-83"><a href="#cb58-83" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> new_data</span>
+<span id="cb58-84"><a href="#cb58-84" aria-hidden="true" tabindex="-1"></a>training_set <span class="op">=</span> convert(training_set)</span>
+<span id="cb58-85"><a href="#cb58-85" aria-hidden="true" tabindex="-1"></a>test_set <span class="op">=</span> convert(test_set)</span>
+<span id="cb58-86"><a href="#cb58-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-87"><a href="#cb58-87" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;## Converting the data into Torch tensors&quot;&quot;&quot;</span></span>
+<span id="cb58-88"><a href="#cb58-88" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;##(Explanation): in order to build our network using Pytorch, we need to create tensors.</span></span>
+<span id="cb58-89"><a href="#cb58-89" aria-hidden="true" tabindex="-1"></a><span class="co"> Tensors are multidimentional Arrays. &quot;&quot;&quot;</span></span>
+<span id="cb58-90"><a href="#cb58-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-91"><a href="#cb58-91" aria-hidden="true" tabindex="-1"></a>training_set <span class="op">=</span> torch.FloatTensor(training_set)</span>
+<span id="cb58-92"><a href="#cb58-92" aria-hidden="true" tabindex="-1"></a>test_set <span class="op">=</span> torch.FloatTensor(test_set)</span>
+<span id="cb58-93"><a href="#cb58-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-94"><a href="#cb58-94" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;## Creating the architecture of the Neural Network (Autoencoders)&quot;&quot;&quot;</span></span>
+<span id="cb58-95"><a href="#cb58-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-96"><a href="#cb58-96" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> SAE(nn.Module):</span>
+<span id="cb58-97"><a href="#cb58-97" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, ):</span>
+<span id="cb58-98"><a href="#cb58-98" aria-hidden="true" tabindex="-1"></a>        <span class="bu">super</span>(SAE, <span class="va">self</span>).<span class="fu">__init__</span>()</span>
+<span id="cb58-99"><a href="#cb58-99" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc1 <span class="op">=</span> nn.Linear(nb_movies, <span class="dv">20</span>)</span>
+<span id="cb58-100"><a href="#cb58-100" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc2 <span class="op">=</span> nn.Linear(<span class="dv">20</span>, <span class="dv">10</span>)</span>
+<span id="cb58-101"><a href="#cb58-101" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc3 <span class="op">=</span> nn.Linear(<span class="dv">10</span>, <span class="dv">20</span>)</span>
+<span id="cb58-102"><a href="#cb58-102" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc4 <span class="op">=</span> nn.Linear(<span class="dv">20</span>, nb_movies)</span>
+<span id="cb58-103"><a href="#cb58-103" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.activation <span class="op">=</span> nn.Sigmoid()</span>
+<span id="cb58-104"><a href="#cb58-104" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> forward(<span class="va">self</span>, x):</span>
+<span id="cb58-105"><a href="#cb58-105" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="va">self</span>.activation(<span class="va">self</span>.fc1(x))</span>
+<span id="cb58-106"><a href="#cb58-106" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="va">self</span>.activation(<span class="va">self</span>.fc2(x))</span>
+<span id="cb58-107"><a href="#cb58-107" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="va">self</span>.activation(<span class="va">self</span>.fc3(x))</span>
+<span id="cb58-108"><a href="#cb58-108" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="va">self</span>.fc4(x)</span>
+<span id="cb58-109"><a href="#cb58-109" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> x</span>
+<span id="cb58-110"><a href="#cb58-110" aria-hidden="true" tabindex="-1"></a>sae <span class="op">=</span> SAE()</span>
+<span id="cb58-111"><a href="#cb58-111" aria-hidden="true" tabindex="-1"></a>criterion <span class="op">=</span> nn.MSELoss()</span>
+<span id="cb58-112"><a href="#cb58-112" aria-hidden="true" tabindex="-1"></a>optimizer <span class="op">=</span> optim.RMSprop(sae.parameters(), lr <span class="op">=</span> <span class="fl">0.01</span>, weight_decay <span class="op">=</span> <span class="fl">0.5</span>)</span>
+<span id="cb58-113"><a href="#cb58-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-114"><a href="#cb58-114" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;## Training the SAE&quot;&quot;&quot;</span></span>
+<span id="cb58-115"><a href="#cb58-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-116"><a href="#cb58-116" aria-hidden="true" tabindex="-1"></a>nb_epoch <span class="op">=</span> <span class="dv">200</span> <span class="co">#200</span></span>
+<span id="cb58-117"><a href="#cb58-117" aria-hidden="true" tabindex="-1"></a>losses_baseline <span class="op">=</span> []</span>
+<span id="cb58-118"><a href="#cb58-118" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> epoch <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, nb_epoch <span class="op">+</span> <span class="dv">1</span>):</span>
+<span id="cb58-119"><a href="#cb58-119" aria-hidden="true" tabindex="-1"></a>  train_loss <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb58-120"><a href="#cb58-120" aria-hidden="true" tabindex="-1"></a>  s <span class="op">=</span> <span class="fl">0.</span></span>
+<span id="cb58-121"><a href="#cb58-121" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> id_user <span class="kw">in</span> <span class="bu">range</span>(nb_users):</span>
+<span id="cb58-122"><a href="#cb58-122" aria-hidden="true" tabindex="-1"></a>    <span class="bu">input</span> <span class="op">=</span> Variable(training_set[id_user]).unsqueeze(<span class="dv">0</span>)</span>
+<span id="cb58-123"><a href="#cb58-123" aria-hidden="true" tabindex="-1"></a>    target <span class="op">=</span> <span class="bu">input</span>.clone()</span>
+<span id="cb58-124"><a href="#cb58-124" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> torch.<span class="bu">sum</span>(target.data <span class="op">&gt;</span> <span class="dv">0</span>) <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb58-125"><a href="#cb58-125" aria-hidden="true" tabindex="-1"></a>      output <span class="op">=</span> sae(<span class="bu">input</span>)</span>
+<span id="cb58-126"><a href="#cb58-126" aria-hidden="true" tabindex="-1"></a>      target.require_grad <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb58-127"><a href="#cb58-127" aria-hidden="true" tabindex="-1"></a>      output[target <span class="op">==</span> <span class="dv">0</span>] <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb58-128"><a href="#cb58-128" aria-hidden="true" tabindex="-1"></a>      loss <span class="op">=</span> criterion(output, target)</span>
+<span id="cb58-129"><a href="#cb58-129" aria-hidden="true" tabindex="-1"></a>      mean_corrector <span class="op">=</span> nb_movies<span class="op">/</span><span class="bu">float</span>(torch.<span class="bu">sum</span>(target.data <span class="op">&gt;</span> <span class="dv">0</span>) <span class="op">+</span> <span class="fl">1e-10</span>)</span>
+<span id="cb58-130"><a href="#cb58-130" aria-hidden="true" tabindex="-1"></a>      loss.backward()</span>
+<span id="cb58-131"><a href="#cb58-131" aria-hidden="true" tabindex="-1"></a>      train_loss <span class="op">+=</span> np.sqrt(loss.data<span class="op">*</span>mean_corrector)</span>
+<span id="cb58-132"><a href="#cb58-132" aria-hidden="true" tabindex="-1"></a>      s <span class="op">+=</span> <span class="fl">1.</span></span>
+<span id="cb58-133"><a href="#cb58-133" aria-hidden="true" tabindex="-1"></a>      optimizer.step()</span>
+<span id="cb58-134"><a href="#cb58-134" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&#39;epoch: &#39;</span><span class="op">+</span><span class="bu">str</span>(epoch),<span class="st">&#39;loss: &#39;</span><span class="op">+</span> <span class="bu">str</span>(train_loss<span class="op">/</span>s))</span>
+<span id="cb58-135"><a href="#cb58-135" aria-hidden="true" tabindex="-1"></a>  losses_baseline.append(train_loss<span class="op">/</span>s)</span>
+<span id="cb58-136"><a href="#cb58-136" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-137"><a href="#cb58-137" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;## Testing the SAE&quot;&quot;&quot;</span></span>
+<span id="cb58-138"><a href="#cb58-138" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-139"><a href="#cb58-139" aria-hidden="true" tabindex="-1"></a>test_loss <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb58-140"><a href="#cb58-140" aria-hidden="true" tabindex="-1"></a>s <span class="op">=</span> <span class="fl">0.</span></span>
+<span id="cb58-141"><a href="#cb58-141" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> id_user <span class="kw">in</span> <span class="bu">range</span>(nb_users):</span>
+<span id="cb58-142"><a href="#cb58-142" aria-hidden="true" tabindex="-1"></a>  <span class="bu">input</span> <span class="op">=</span> Variable(training_set[id_user]).unsqueeze(<span class="dv">0</span>)</span>
+<span id="cb58-143"><a href="#cb58-143" aria-hidden="true" tabindex="-1"></a>  target <span class="op">=</span> Variable(test_set[id_user]).unsqueeze(<span class="dv">0</span>)</span>
+<span id="cb58-144"><a href="#cb58-144" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> torch.<span class="bu">sum</span>(target.data <span class="op">&gt;</span> <span class="dv">0</span>) <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb58-145"><a href="#cb58-145" aria-hidden="true" tabindex="-1"></a>    output <span class="op">=</span> sae(<span class="bu">input</span>)</span>
+<span id="cb58-146"><a href="#cb58-146" aria-hidden="true" tabindex="-1"></a>    target.require_grad <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb58-147"><a href="#cb58-147" aria-hidden="true" tabindex="-1"></a>    output[target <span class="op">==</span> <span class="dv">0</span>] <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb58-148"><a href="#cb58-148" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> criterion(output, target)</span>
+<span id="cb58-149"><a href="#cb58-149" aria-hidden="true" tabindex="-1"></a>    mean_corrector <span class="op">=</span> nb_movies<span class="op">/</span><span class="bu">float</span>(torch.<span class="bu">sum</span>(target.data <span class="op">&gt;</span> <span class="dv">0</span>) <span class="op">+</span> <span class="fl">1e-10</span>)</span>
+<span id="cb58-150"><a href="#cb58-150" aria-hidden="true" tabindex="-1"></a>    test_loss <span class="op">+=</span> np.sqrt(loss.data<span class="op">*</span>mean_corrector)</span>
+<span id="cb58-151"><a href="#cb58-151" aria-hidden="true" tabindex="-1"></a>    s <span class="op">+=</span> <span class="fl">1.</span></span>
+<span id="cb58-152"><a href="#cb58-152" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;test loss: &#39;</span><span class="op">+</span><span class="bu">str</span>(test_loss<span class="op">/</span>s))</span></code></pre></div>
+<div class="output display_data">
+<pre><code>array([[     2163,        26,         4, 974616477],
+       [      955,        43,         5, 975130437],
+       [     2180,      1790,         4, 974609613],
+       ...,
+       [      853,      1471,         3, 975355597],
+       [     4032,       842,         5, 965525805],
+       [      785,      1075,         4, 975429588]])</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>epoch: 1 loss: tensor(1.3102)
+epoch: 2 loss: tensor(1.0043)
+epoch: 3 loss: tensor(0.9875)
+epoch: 4 loss: tensor(0.9820)
+epoch: 5 loss: tensor(0.9795)
+epoch: 6 loss: tensor(0.9779)
+epoch: 7 loss: tensor(0.9770)
+epoch: 8 loss: tensor(0.9763)
+epoch: 9 loss: tensor(0.9760)
+epoch: 10 loss: tensor(0.9757)
+epoch: 11 loss: tensor(0.9753)
+epoch: 12 loss: tensor(0.9752)
+epoch: 13 loss: tensor(0.9752)
+epoch: 14 loss: tensor(0.9749)
+epoch: 15 loss: tensor(0.9748)
+epoch: 16 loss: tensor(0.9745)
+epoch: 17 loss: tensor(0.9745)
+epoch: 18 loss: tensor(0.9744)
+epoch: 19 loss: tensor(0.9742)
+epoch: 20 loss: tensor(0.9742)
+epoch: 21 loss: tensor(0.9739)
+epoch: 22 loss: tensor(0.9734)
+epoch: 23 loss: tensor(0.9725)
+epoch: 24 loss: tensor(0.9713)
+epoch: 25 loss: tensor(0.9703)
+epoch: 26 loss: tensor(0.9698)
+epoch: 27 loss: tensor(0.9695)
+epoch: 28 loss: tensor(0.9682)
+epoch: 29 loss: tensor(0.9668)
+epoch: 30 loss: tensor(0.9672)
+epoch: 31 loss: tensor(0.9674)
+epoch: 32 loss: tensor(0.9656)
+epoch: 33 loss: tensor(0.9656)
+epoch: 34 loss: tensor(0.9630)
+epoch: 35 loss: tensor(0.9620)
+epoch: 36 loss: tensor(0.9612)
+epoch: 37 loss: tensor(0.9612)
+epoch: 38 loss: tensor(0.9613)
+epoch: 39 loss: tensor(0.9581)
+epoch: 40 loss: tensor(0.9561)
+epoch: 41 loss: tensor(0.9601)
+epoch: 42 loss: tensor(0.9580)
+epoch: 43 loss: tensor(0.9557)
+epoch: 44 loss: tensor(0.9547)
+epoch: 45 loss: tensor(0.9535)
+epoch: 46 loss: tensor(0.9503)
+epoch: 47 loss: tensor(0.9508)
+epoch: 48 loss: tensor(0.9489)
+epoch: 49 loss: tensor(0.9480)
+epoch: 50 loss: tensor(0.9466)
+epoch: 51 loss: tensor(0.9456)
+epoch: 52 loss: tensor(0.9438)
+epoch: 53 loss: tensor(0.9397)
+epoch: 54 loss: tensor(0.9383)
+epoch: 55 loss: tensor(0.9382)
+epoch: 56 loss: tensor(0.9357)
+epoch: 57 loss: tensor(0.9424)
+epoch: 58 loss: tensor(0.9372)
+epoch: 59 loss: tensor(0.9334)
+epoch: 60 loss: tensor(0.9324)
+epoch: 61 loss: tensor(0.9300)
+epoch: 62 loss: tensor(0.9269)
+epoch: 63 loss: tensor(0.9274)
+epoch: 64 loss: tensor(0.9271)
+epoch: 65 loss: tensor(0.9268)
+epoch: 66 loss: tensor(0.9262)
+epoch: 67 loss: tensor(0.9241)
+epoch: 68 loss: tensor(0.9210)
+epoch: 69 loss: tensor(0.9216)
+epoch: 70 loss: tensor(0.9232)
+epoch: 71 loss: tensor(0.9209)
+epoch: 72 loss: tensor(0.9233)
+epoch: 73 loss: tensor(0.9216)
+epoch: 74 loss: tensor(0.9183)
+epoch: 75 loss: tensor(0.9189)
+epoch: 76 loss: tensor(0.9170)
+epoch: 77 loss: tensor(0.9177)
+epoch: 78 loss: tensor(0.9197)
+epoch: 79 loss: tensor(0.9182)
+epoch: 80 loss: tensor(0.9170)
+epoch: 81 loss: tensor(0.9181)
+epoch: 82 loss: tensor(0.9153)
+epoch: 83 loss: tensor(0.9145)
+epoch: 84 loss: tensor(0.9142)
+epoch: 85 loss: tensor(0.9122)
+epoch: 86 loss: tensor(0.9121)
+epoch: 87 loss: tensor(0.9125)
+epoch: 88 loss: tensor(0.9134)
+epoch: 89 loss: tensor(0.9145)
+epoch: 90 loss: tensor(0.9139)
+epoch: 91 loss: tensor(0.9121)
+epoch: 92 loss: tensor(0.9122)
+epoch: 93 loss: tensor(0.9113)
+epoch: 94 loss: tensor(0.9104)
+epoch: 95 loss: tensor(0.9088)
+epoch: 96 loss: tensor(0.9077)
+epoch: 97 loss: tensor(0.9077)
+epoch: 98 loss: tensor(0.9081)
+epoch: 99 loss: tensor(0.9063)
+epoch: 100 loss: tensor(0.9069)
+epoch: 101 loss: tensor(0.9060)
+epoch: 102 loss: tensor(0.9097)
+epoch: 103 loss: tensor(0.9161)
+epoch: 104 loss: tensor(0.9110)
+epoch: 105 loss: tensor(0.9085)
+epoch: 106 loss: tensor(0.9069)
+epoch: 107 loss: tensor(0.9041)
+epoch: 108 loss: tensor(0.9036)
+epoch: 109 loss: tensor(0.9029)
+epoch: 110 loss: tensor(0.9020)
+epoch: 111 loss: tensor(0.9015)
+epoch: 112 loss: tensor(0.8996)
+epoch: 113 loss: tensor(0.9015)
+epoch: 114 loss: tensor(0.9020)
+epoch: 115 loss: tensor(0.8995)
+epoch: 116 loss: tensor(0.8987)
+epoch: 117 loss: tensor(0.8995)
+epoch: 118 loss: tensor(0.8973)
+epoch: 119 loss: tensor(0.8958)
+epoch: 120 loss: tensor(0.8969)
+epoch: 121 loss: tensor(0.8945)
+epoch: 122 loss: tensor(0.8918)
+epoch: 123 loss: tensor(0.8910)
+epoch: 124 loss: tensor(0.8920)
+epoch: 125 loss: tensor(0.8919)
+epoch: 126 loss: tensor(0.8894)
+epoch: 127 loss: tensor(0.8878)
+epoch: 128 loss: tensor(0.8873)
+epoch: 129 loss: tensor(0.8876)
+epoch: 130 loss: tensor(0.8860)
+epoch: 131 loss: tensor(0.8847)
+epoch: 132 loss: tensor(0.8858)
+epoch: 133 loss: tensor(0.8848)
+epoch: 134 loss: tensor(0.8838)
+epoch: 135 loss: tensor(0.8853)
+epoch: 136 loss: tensor(0.8851)
+epoch: 137 loss: tensor(0.8828)
+epoch: 138 loss: tensor(0.8825)
+epoch: 139 loss: tensor(0.8835)
+epoch: 140 loss: tensor(0.8822)
+epoch: 141 loss: tensor(0.8850)
+epoch: 142 loss: tensor(0.8825)
+epoch: 143 loss: tensor(0.8819)
+epoch: 144 loss: tensor(0.8800)
+epoch: 145 loss: tensor(0.8808)
+epoch: 146 loss: tensor(0.8817)
+epoch: 147 loss: tensor(0.8795)
+epoch: 148 loss: tensor(0.8795)
+epoch: 149 loss: tensor(0.8790)
+epoch: 150 loss: tensor(0.8781)
+epoch: 151 loss: tensor(0.8790)
+epoch: 152 loss: tensor(0.8781)
+epoch: 153 loss: tensor(0.8772)
+epoch: 154 loss: tensor(0.8787)
+epoch: 155 loss: tensor(0.8783)
+epoch: 156 loss: tensor(0.8774)
+epoch: 157 loss: tensor(0.8783)
+epoch: 158 loss: tensor(0.8778)
+epoch: 159 loss: tensor(0.8762)
+epoch: 160 loss: tensor(0.8773)
+epoch: 161 loss: tensor(0.8779)
+epoch: 162 loss: tensor(0.8762)
+epoch: 163 loss: tensor(0.8749)
+epoch: 164 loss: tensor(0.8786)
+epoch: 165 loss: tensor(0.8788)
+epoch: 166 loss: tensor(0.8766)
+epoch: 167 loss: tensor(0.8747)
+epoch: 168 loss: tensor(0.8747)
+epoch: 169 loss: tensor(0.8745)
+epoch: 170 loss: tensor(0.8735)
+epoch: 171 loss: tensor(0.8738)
+epoch: 172 loss: tensor(0.8731)
+epoch: 173 loss: tensor(0.8724)
+epoch: 174 loss: tensor(0.8729)
+epoch: 175 loss: tensor(0.8720)
+epoch: 176 loss: tensor(0.8718)
+epoch: 177 loss: tensor(0.8716)
+epoch: 178 loss: tensor(0.8719)
+epoch: 179 loss: tensor(0.8719)
+epoch: 180 loss: tensor(0.8722)
+epoch: 181 loss: tensor(0.8732)
+epoch: 182 loss: tensor(0.8717)
+epoch: 183 loss: tensor(0.8709)
+epoch: 184 loss: tensor(0.8713)
+epoch: 185 loss: tensor(0.8714)
+epoch: 186 loss: tensor(0.8723)
+epoch: 187 loss: tensor(0.8732)
+epoch: 188 loss: tensor(0.8722)
+epoch: 189 loss: tensor(0.8709)
+epoch: 190 loss: tensor(0.8698)
+epoch: 191 loss: tensor(0.8706)
+epoch: 192 loss: tensor(0.8698)
+epoch: 193 loss: tensor(0.8689)
+epoch: 194 loss: tensor(0.8691)
+epoch: 195 loss: tensor(0.8688)
+epoch: 196 loss: tensor(0.8682)
+epoch: 197 loss: tensor(0.8686)
+epoch: 198 loss: tensor(0.8682)
+epoch: 199 loss: tensor(0.8686)
+epoch: 200 loss: tensor(0.8682)
+test loss: tensor(0.8947)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;height&quot;:312,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="0b4T_f9QBmsG" data-outputId="af3cee72-6321-4378-c931-c5afd0cf3e8f">
+<div class="sourceCode" id="cb61"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>losses_bl <span class="op">=</span> pd.DataFrame(losses_baseline)</span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>losses_bl.columns <span class="op">=</span> [<span class="st">&quot;loss&quot;</span>]</span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>losses_bl.plot(title<span class="op">=</span><span class="st">&quot;Baseline AutoEncoder Loss&quot;</span>, legend<span class="op">=</span><span class="dv">0</span>, xlabel<span class="op">=</span><span class="st">&quot;Epoch&quot;</span>, ylabel<span class="op">=</span><span class="st">&quot;Loss&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="62">
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f6712151ad0&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_c5770effcc694bc3abb92376ece48707/f7b2cebdbedfa80543efa28acc8d56d68133a381.png" /></p>
+</div>
+</div>
+</body>
+</html>
